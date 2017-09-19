@@ -6,7 +6,7 @@
 name: kingflying
 
 # Short bio or description (displayed in the header)
-description: Full Stack Developer from Egova
+description: Full Stack Developer from eGOVA
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/kingflying/kingflying.github.io/master/images/jekyll-logo.png
@@ -21,12 +21,12 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: kingflying/kingflying.github.io
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
