@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A股全局圆弧底形态分析</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .header h1 {
+            color: #333;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .control-panel {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .control-panel h2 {
+            margin: 0 0 10px 0;
+            color: #333;
+        }
+        
+        .pagination-controls {
+            margin-top: 15px;
+        }
+        
+        .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        
+        .btn:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+        
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .chart-container {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        
+        .chart-container:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+            font-size: 12px;
+            line-height: 1.2;
+        }
+        
+        .chart-content {
+            text-align: center;
+        }
+        
+        .chart-content img {
+            border-radius: 4px;
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .page {
+            margin-bottom: 30px;
+        }
+        
+        .info {
+            background-color: #e7f3ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📈 A股全局圆弧底形态分析</h1>
+            <p>基于全局圆弧底检测算法的形态分析</p>
+        </div>
+        
+        <div class="info">
+            <p><strong>生成时间:</strong> 2025-07-17 02:01:17</p>
+            <p><strong>检测结果:</strong> 共发现 196 只股票存在全局圆弧底形态</p>
+        </div>
+
+        <div class="control-panel">
+            <h2>A股全局圆弧底形态分析</h2>
+            <p>共 <span id="totalStocks">196</span> 只股票，<span id="totalPages">2</span> 页</p>
+            <div class="pagination-controls">
+                <button id="prevPageBtn" class="btn" onclick="prevPage()">上一页</button>
+                <span id="pageInfo">第 1 页，共 2 页</span>
+                <button id="nextPageBtn" class="btn" onclick="nextPage()">下一页</button>
+            </div>
+        </div>
+<div id="page1" class="page" style="display: block;"><div class="charts-grid">
+                <div class="chart-container">
+                    <div class="chart-title">000519.SZ 000519.SZ 下降→上涨 R²=0.79 质量=52.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_000519.SZ.png" alt="000519.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">000657.SZ 000657.SZ 下降→上涨 R²=0.73 质量=49.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_000657.SZ.png" alt="000657.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">000722.SZ 000722.SZ 下降→上涨 R²=0.75 质量=45.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_000722.SZ.png" alt="000722.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">000738.SZ 000738.SZ 下降→上涨 R²=0.71 质量=49.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_000738.SZ.png" alt="000738.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">000739.SZ 000739.SZ 下降→上涨 R²=0.76 质量=49.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_000739.SZ.png" alt="000739.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">000788.SZ 000788.SZ 下降→上涨 R²=0.71 质量=44.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_000788.SZ.png" alt="000788.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">000880.SZ 000880.SZ 下降→上涨 R²=0.80 质量=42.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_000880.SZ.png" alt="000880.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">000909.SZ 000909.SZ 下降→上涨 R²=0.76 质量=49.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_000909.SZ.png" alt="000909.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">000965.SZ 000965.SZ 下降→上涨 R²=0.73 质量=51.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_000965.SZ.png" alt="000965.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">001205.SZ 001205.SZ 下降→上涨 R²=0.77 质量=52.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_001205.SZ.png" alt="001205.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">001206.SZ 001206.SZ 下降→上涨 R²=0.80 质量=52.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_001206.SZ.png" alt="001206.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">001231.SZ 001231.SZ 下降→上涨 R²=0.72 质量=50.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_001231.SZ.png" alt="001231.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">001238.SZ 001238.SZ 下降→上涨 R²=0.80 质量=50.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_001238.SZ.png" alt="001238.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">001328.SZ 001328.SZ 下降→上涨 R²=0.84 质量=51.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_001328.SZ.png" alt="001328.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">001333.SZ 001333.SZ 下降→上涨 R²=0.85 质量=54.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_001333.SZ.png" alt="001333.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">001360.SZ 001360.SZ 下降→上涨 R²=0.75 质量=55.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_001360.SZ.png" alt="001360.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002006.SZ 002006.SZ 下降→上涨 R²=0.86 质量=53.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002006.SZ.png" alt="002006.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002037.SZ 002037.SZ 下降→上涨 R²=0.74 质量=51.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002037.SZ.png" alt="002037.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002052.SZ 002052.SZ 下降→上涨 R²=0.86 质量=51.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002052.SZ.png" alt="002052.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002084.SZ 002084.SZ 下降→上涨 R²=0.71 质量=50.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002084.SZ.png" alt="002084.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002125.SZ 002125.SZ 下降→上涨 R²=0.73 质量=51.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002125.SZ.png" alt="002125.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002136.SZ 002136.SZ 下降→上涨 R²=0.76 质量=48.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002136.SZ.png" alt="002136.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002141.SZ 002141.SZ 下降→上涨 R²=0.74 质量=49.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002141.SZ.png" alt="002141.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002179.SZ 002179.SZ 下降→上涨 R²=0.86 质量=55.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002179.SZ.png" alt="002179.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002204.SZ 002204.SZ 下降→上涨 R²=0.74 质量=45.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002204.SZ.png" alt="002204.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002245.SZ 002245.SZ 下降→上涨 R²=0.83 质量=53.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002245.SZ.png" alt="002245.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002273.SZ 002273.SZ 下降→上涨 R²=0.74 质量=34.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002273.SZ.png" alt="002273.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002309.SZ 002309.SZ 下降→上涨 R²=0.80 质量=51.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002309.SZ.png" alt="002309.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002352.SZ 002352.SZ 下降→上涨 R²=0.77 质量=42.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002352.SZ.png" alt="002352.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002361.SZ 002361.SZ 下降→上涨 R²=0.71 质量=42.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002361.SZ.png" alt="002361.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002399.SZ 002399.SZ 下降→上涨 R²=0.71 质量=50.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002399.SZ.png" alt="002399.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002414.SZ 002414.SZ 下降→上涨 R²=0.83 质量=53.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002414.SZ.png" alt="002414.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002487.SZ 002487.SZ 下降→上涨 R²=0.91 质量=54.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002487.SZ.png" alt="002487.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002534.SZ 002534.SZ 下降→上涨 R²=0.74 质量=51.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002534.SZ.png" alt="002534.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002562.SZ 002562.SZ 下降→上涨 R²=0.72 质量=50.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002562.SZ.png" alt="002562.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002597.SZ 002597.SZ 下降→上涨 R²=0.82 质量=53.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002597.SZ.png" alt="002597.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002598.SZ 002598.SZ 下降→上涨 R²=0.72 质量=49.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002598.SZ.png" alt="002598.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002625.SZ 002625.SZ 下降→上涨 R²=0.81 质量=41.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002625.SZ.png" alt="002625.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002735.SZ 002735.SZ 下降→上涨 R²=0.77 质量=51.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002735.SZ.png" alt="002735.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002765.SZ 002765.SZ 下降→上涨 R²=0.78 质量=52.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002765.SZ.png" alt="002765.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002768.SZ 002768.SZ 下降→上涨 R²=0.77 质量=46.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002768.SZ.png" alt="002768.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002782.SZ 002782.SZ 下降→上涨 R²=0.76 质量=47.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002782.SZ.png" alt="002782.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002825.SZ 002825.SZ 下降→上涨 R²=0.80 质量=52.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002825.SZ.png" alt="002825.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002871.SZ 002871.SZ 下降→上涨 R²=0.81 质量=52.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002871.SZ.png" alt="002871.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002923.SZ 002923.SZ 下降→上涨 R²=0.76 质量=51.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002923.SZ.png" alt="002923.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002968.SZ 002968.SZ 下降→上涨 R²=0.90 质量=54.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002968.SZ.png" alt="002968.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002972.SZ 002972.SZ 下降→上涨 R²=0.81 质量=52.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002972.SZ.png" alt="002972.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002979.SZ 002979.SZ 下降→上涨 R²=0.81 质量=41.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002979.SZ.png" alt="002979.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">002989.SZ 002989.SZ 下降→上涨 R²=0.86 质量=43.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_002989.SZ.png" alt="002989.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">003023.SZ 003023.SZ 下降→上涨 R²=0.72 质量=50.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_003023.SZ.png" alt="003023.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">003043.SZ 003043.SZ 下降→上涨 R²=0.78 质量=52.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_003043.SZ.png" alt="003043.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300029.SZ 300029.SZ 下降→上涨 R²=0.74 质量=50.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300029.SZ.png" alt="300029.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300035.SZ 300035.SZ 下降→上涨 R²=0.82 质量=52.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300035.SZ.png" alt="300035.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300067.SZ 300067.SZ 下降→上涨 R²=0.71 质量=40.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300067.SZ.png" alt="300067.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300083.SZ 300083.SZ 下降→上涨 R²=0.71 质量=50.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300083.SZ.png" alt="300083.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300115.SZ 300115.SZ 下降→上涨 R²=0.74 质量=40.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300115.SZ.png" alt="300115.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300132.SZ 300132.SZ 下降→上涨 R²=0.74 质量=51.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300132.SZ.png" alt="300132.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300167.SZ 300167.SZ 下降→上涨 R²=0.82 质量=50.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300167.SZ.png" alt="300167.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300179.SZ 300179.SZ 下降→上涨 R²=0.74 质量=51.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300179.SZ.png" alt="300179.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300180.SZ 300180.SZ 下降→上涨 R²=0.71 质量=34.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300180.SZ.png" alt="300180.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300220.SZ 300220.SZ 下降→上涨 R²=0.74 质量=50.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300220.SZ.png" alt="300220.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300239.SZ 300239.SZ 下降→上涨 R²=0.83 质量=50.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300239.SZ.png" alt="300239.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300327.SZ 300327.SZ 下降→上涨 R²=0.75 质量=51.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300327.SZ.png" alt="300327.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300347.SZ 300347.SZ 下降→上涨 R²=0.74 质量=51.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300347.SZ.png" alt="300347.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300395.SZ 300395.SZ 下降→上涨 R²=0.77 质量=52.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300395.SZ.png" alt="300395.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300421.SZ 300421.SZ 下降→上涨 R²=0.74 质量=49.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300421.SZ.png" alt="300421.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300427.SZ 300427.SZ 下降→上涨 R²=0.86 质量=53.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300427.SZ.png" alt="300427.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300505.SZ 300505.SZ 下降→上涨 R²=0.78 质量=52.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300505.SZ.png" alt="300505.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300565.SZ 300565.SZ 下降→上涨 R²=0.87 质量=53.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300565.SZ.png" alt="300565.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300581.SZ 300581.SZ 下降→上涨 R²=0.77 质量=52.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300581.SZ.png" alt="300581.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300586.SZ 300586.SZ 下降→上涨 R²=0.92 质量=54.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300586.SZ.png" alt="300586.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300596.SZ 300596.SZ 下降→上涨 R²=0.92 质量=55.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300596.SZ.png" alt="300596.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300610.SZ 300610.SZ 下降→上涨 R²=0.78 质量=52.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300610.SZ.png" alt="300610.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300641.SZ 300641.SZ 下降→上涨 R²=0.72 质量=44.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300641.SZ.png" alt="300641.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300680.SZ 300680.SZ 下降→上涨 R²=0.80 质量=52.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300680.SZ.png" alt="300680.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300681.SZ 300681.SZ 下降→上涨 R²=0.81 质量=52.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300681.SZ.png" alt="300681.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300696.SZ 300696.SZ 下降→上涨 R²=0.85 质量=53.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300696.SZ.png" alt="300696.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300699.SZ 300699.SZ 下降→上涨 R²=0.81 质量=53.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300699.SZ.png" alt="300699.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300712.SZ 300712.SZ 下降→上涨 R²=0.89 质量=54.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300712.SZ.png" alt="300712.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300720.SZ 300720.SZ 下降→上涨 R²=0.75 质量=32.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300720.SZ.png" alt="300720.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300721.SZ 300721.SZ 下降→上涨 R²=0.81 质量=52.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300721.SZ.png" alt="300721.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300726.SZ 300726.SZ 下降→上涨 R²=0.72 质量=51.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300726.SZ.png" alt="300726.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300733.SZ 300733.SZ 下降→上涨 R²=0.79 质量=52.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300733.SZ.png" alt="300733.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300772.SZ 300772.SZ 下降→上涨 R²=0.70 质量=50.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300772.SZ.png" alt="300772.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300777.SZ 300777.SZ 下降→上涨 R²=0.84 质量=53.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300777.SZ.png" alt="300777.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300801.SZ 300801.SZ 下降→上涨 R²=0.74 质量=51.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300801.SZ.png" alt="300801.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300813.SZ 300813.SZ 下降→上涨 R²=0.82 质量=52.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300813.SZ.png" alt="300813.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300834.SZ 300834.SZ 下降→上涨 R²=0.76 质量=47.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300834.SZ.png" alt="300834.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300890.SZ 300890.SZ 下降→上涨 R²=0.72 质量=50.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300890.SZ.png" alt="300890.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300903.SZ 300903.SZ 下降→上涨 R²=0.71 质量=50.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300903.SZ.png" alt="300903.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300916.SZ 300916.SZ 下降→上涨 R²=0.80 质量=52.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300916.SZ.png" alt="300916.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300966.SZ 300966.SZ 下降→上涨 R²=0.77 质量=49.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300966.SZ.png" alt="300966.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300994.SZ 300994.SZ 下降→上涨 R²=0.79 质量=52.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300994.SZ.png" alt="300994.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">300996.SZ 300996.SZ 下降→上涨 R²=0.74 质量=51.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_300996.SZ.png" alt="300996.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301057.SZ 301057.SZ 下降→上涨 R²=0.70 质量=48.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301057.SZ.png" alt="301057.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301059.SZ 301059.SZ 下降→上涨 R²=0.71 质量=50.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301059.SZ.png" alt="301059.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301063.SZ 301063.SZ 下降→上涨 R²=0.77 质量=50.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301063.SZ.png" alt="301063.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301065.SZ 301065.SZ 下降→上涨 R²=0.84 质量=53.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301065.SZ.png" alt="301065.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301081.SZ 301081.SZ 下降→上涨 R²=0.70 质量=50.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301081.SZ.png" alt="301081.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301098.SZ 301098.SZ 下降→上涨 R²=0.90 质量=54.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301098.SZ.png" alt="301098.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                </div></div><div id="page2" class="page" style="display: none;"><div class="charts-grid">
+                <div class="chart-container">
+                    <div class="chart-title">301118.SZ 301118.SZ 下降→上涨 R²=0.81 质量=52.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301118.SZ.png" alt="301118.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301120.SZ 301120.SZ 下降→上涨 R²=0.89 质量=54.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301120.SZ.png" alt="301120.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301126.SZ 301126.SZ 下降→上涨 R²=0.77 质量=51.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301126.SZ.png" alt="301126.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301129.SZ 301129.SZ 下降→上涨 R²=0.81 质量=52.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301129.SZ.png" alt="301129.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301167.SZ 301167.SZ 下降→上涨 R²=0.87 质量=53.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301167.SZ.png" alt="301167.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301198.SZ 301198.SZ 下降→上涨 R²=0.71 质量=50.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301198.SZ.png" alt="301198.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301212.SZ 301212.SZ 下降→上涨 R²=0.80 质量=52.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301212.SZ.png" alt="301212.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301219.SZ 301219.SZ 下降→上涨 R²=0.73 质量=51.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301219.SZ.png" alt="301219.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301260.SZ 301260.SZ 下降→上涨 R²=0.88 质量=53.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301260.SZ.png" alt="301260.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301314.SZ 301314.SZ 下降→上涨 R²=0.85 质量=55.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301314.SZ.png" alt="301314.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301320.SZ 301320.SZ 下降→上涨 R²=0.81 质量=55.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301320.SZ.png" alt="301320.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301335.SZ 301335.SZ 下降→上涨 R²=0.87 质量=54.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301335.SZ.png" alt="301335.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301338.SZ 301338.SZ 下降→上涨 R²=0.80 质量=52.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301338.SZ.png" alt="301338.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301365.SZ 301365.SZ 下降→上涨 R²=0.86 质量=54.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301365.SZ.png" alt="301365.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301367.SZ 301367.SZ 下降→上涨 R²=0.93 质量=53.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301367.SZ.png" alt="301367.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301369.SZ 301369.SZ 下降→上涨 R²=0.80 质量=52.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301369.SZ.png" alt="301369.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301525.SZ 301525.SZ 下降→上涨 R²=0.79 质量=51.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301525.SZ.png" alt="301525.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301533.SZ 301533.SZ 下降→上涨 R²=0.71 质量=53.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301533.SZ.png" alt="301533.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">301550.SZ 301550.SZ 下降→上涨 R²=0.72 质量=51.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_301550.SZ.png" alt="301550.SZ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600032.SH 600032.SH 下降→上涨 R²=0.83 质量=64.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600032.SH.png" alt="600032.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600141.SH 600141.SH 下降→上涨 R²=0.73 质量=51.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600141.SH.png" alt="600141.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600152.SH 600152.SH 下降→上涨 R²=0.86 质量=53.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600152.SH.png" alt="600152.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600165.SH 600165.SH 下降→上涨 R²=0.90 质量=52.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600165.SH.png" alt="600165.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600207.SH 600207.SH 下降→上涨 R²=0.77 质量=50.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600207.SH.png" alt="600207.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600316.SH 600316.SH 下降→上涨 R²=0.73 质量=45.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600316.SH.png" alt="600316.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600338.SH 600338.SH 下降→上涨 R²=0.91 质量=55.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600338.SH.png" alt="600338.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600456.SH 600456.SH 下降→上涨 R²=0.82 质量=53.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600456.SH.png" alt="600456.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600505.SH 600505.SH 下降→上涨 R²=0.71 质量=41.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600505.SH.png" alt="600505.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600530.SH 600530.SH 下降→上涨 R²=0.85 质量=56.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600530.SH.png" alt="600530.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600562.SH 600562.SH 下降→上涨 R²=0.79 质量=40.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600562.SH.png" alt="600562.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600577.SH 600577.SH 下降→上涨 R²=0.83 质量=41.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600577.SH.png" alt="600577.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600711.SH 600711.SH 下降→上涨 R²=0.76 质量=50.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600711.SH.png" alt="600711.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600774.SH 600774.SH 下降→上涨 R²=0.71 质量=48.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600774.SH.png" alt="600774.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600793.SH 600793.SH 下降→上涨 R²=0.73 质量=43.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600793.SH.png" alt="600793.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">600847.SH 600847.SH 下降→上涨 R²=0.84 质量=53.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_600847.SH.png" alt="600847.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">601155.SH 601155.SH 下降→上涨 R²=0.72 质量=49.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_601155.SH.png" alt="601155.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">601369.SH 601369.SH 下降→上涨 R²=0.77 质量=46.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_601369.SH.png" alt="601369.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">601777.SH 601777.SH 下降→上涨 R²=0.85 质量=49.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_601777.SH.png" alt="601777.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603078.SH 603078.SH 下降→上涨 R²=0.71 质量=49.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603078.SH.png" alt="603078.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603086.SH 603086.SH 下降→上涨 R²=0.95 质量=55.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603086.SH.png" alt="603086.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603130.SH 603130.SH 下降→上涨 R²=0.78 质量=48.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603130.SH.png" alt="603130.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603182.SH 603182.SH 下降→上涨 R²=0.83 质量=50.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603182.SH.png" alt="603182.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603200.SH 603200.SH 下降→上涨 R²=0.76 质量=39.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603200.SH.png" alt="603200.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603209.SH 603209.SH 下降→上涨 R²=0.85 质量=53.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603209.SH.png" alt="603209.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603218.SH 603218.SH 下降→上涨 R²=0.83 质量=53.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603218.SH.png" alt="603218.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603236.SH 603236.SH 下降→上涨 R²=0.78 质量=52.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603236.SH.png" alt="603236.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603260.SH 603260.SH 下降→上涨 R²=0.88 质量=69.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603260.SH.png" alt="603260.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603281.SH 603281.SH 下降→上涨 R²=0.83 质量=63.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603281.SH.png" alt="603281.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603301.SH 603301.SH 下降→上涨 R²=0.95 质量=66.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603301.SH.png" alt="603301.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603303.SH 603303.SH 下降→上涨 R²=0.83 质量=49.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603303.SH.png" alt="603303.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603311.SH 603311.SH 下降→上涨 R²=0.76 质量=48.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603311.SH.png" alt="603311.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603315.SH 603315.SH 下降→上涨 R²=0.76 质量=51.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603315.SH.png" alt="603315.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603416.SH 603416.SH 下降→上涨 R²=0.72 质量=45.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603416.SH.png" alt="603416.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603557.SH 603557.SH 下降→上涨 R²=0.86 质量=53.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603557.SH.png" alt="603557.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603577.SH 603577.SH 下降→上涨 R²=0.70 质量=49.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603577.SH.png" alt="603577.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603583.SH 603583.SH 下降→上涨 R²=0.73 质量=49.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603583.SH.png" alt="603583.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603613.SH 603613.SH 下降→上涨 R²=0.92 质量=55.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603613.SH.png" alt="603613.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603663.SH 603663.SH 下降→上涨 R²=0.78 质量=47.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603663.SH.png" alt="603663.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603676.SH 603676.SH 下降→上涨 R²=0.83 质量=49.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603676.SH.png" alt="603676.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603678.SH 603678.SH 下降→上涨 R²=0.77 质量=52.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603678.SH.png" alt="603678.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603733.SH 603733.SH 下降→上涨 R²=0.73 质量=49.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603733.SH.png" alt="603733.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603755.SH 603755.SH 下降→上涨 R²=0.75 质量=51.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603755.SH.png" alt="603755.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603787.SH 603787.SH 下降→上涨 R²=0.92 质量=54.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603787.SH.png" alt="603787.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603822.SH 603822.SH 下降→上涨 R²=0.72 质量=51.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603822.SH.png" alt="603822.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603823.SH 603823.SH 下降→上涨 R²=0.72 质量=50.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603823.SH.png" alt="603823.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603893.SH 603893.SH 下降→上涨 R²=0.74 质量=43.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603893.SH.png" alt="603893.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603936.SH 603936.SH 下降→上涨 R²=0.80 质量=51.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603936.SH.png" alt="603936.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">603995.SH 603995.SH 下降→上涨 R²=0.78 质量=61.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_603995.SH.png" alt="603995.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">605208.SH 605208.SH 下降→上涨 R²=0.80 质量=52.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_605208.SH.png" alt="605208.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">605376.SH 605376.SH 下降→上涨 R²=0.84 质量=53.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_605376.SH.png" alt="605376.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">605507.SH 605507.SH 下降→上涨 R²=0.84 质量=53.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_605507.SH.png" alt="605507.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688026.SH 688026.SH 下降→上涨 R²=0.92 质量=53.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688026.SH.png" alt="688026.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688052.SH 688052.SH 下降→上涨 R²=0.88 质量=52.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688052.SH.png" alt="688052.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688085.SH 688085.SH 下降→上涨 R²=0.77 质量=52.0</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688085.SH.png" alt="688085.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688089.SH 688089.SH 下降→上涨 R²=0.84 质量=53.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688089.SH.png" alt="688089.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688093.SH 688093.SH 下降→上涨 R²=0.71 质量=50.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688093.SH.png" alt="688093.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688116.SH 688116.SH 下降→上涨 R²=0.89 质量=54.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688116.SH.png" alt="688116.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688123.SH 688123.SH 下降→上涨 R²=0.75 质量=51.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688123.SH.png" alt="688123.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688141.SH 688141.SH 下降→上涨 R²=0.82 质量=52.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688141.SH.png" alt="688141.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688168.SH 688168.SH 下降→上涨 R²=0.70 质量=42.2</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688168.SH.png" alt="688168.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688183.SH 688183.SH 下降→上涨 R²=0.81 质量=41.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688183.SH.png" alt="688183.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688200.SH 688200.SH 下降→上涨 R²=0.80 质量=52.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688200.SH.png" alt="688200.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688248.SH 688248.SH 下降→上涨 R²=0.84 质量=53.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688248.SH.png" alt="688248.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688307.SH 688307.SH 下降→上涨 R²=0.75 质量=51.5</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688307.SH.png" alt="688307.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688559.SH 688559.SH 下降→上涨 R²=0.85 质量=60.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688559.SH.png" alt="688559.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688573.SH 688573.SH 下降→上涨 R²=0.82 质量=51.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688573.SH.png" alt="688573.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688582.SH 688582.SH 下降→上涨 R²=0.88 质量=56.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688582.SH.png" alt="688582.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688597.SH 688597.SH 下降→上涨 R²=0.84 质量=53.3</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688597.SH.png" alt="688597.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">688638.SH 688638.SH 下降→上涨 R²=0.94 质量=53.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_688638.SH.png" alt="688638.SH 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">831961.BJ 831961.BJ 下降→上涨 R²=0.73 质量=47.9</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_831961.BJ.png" alt="831961.BJ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">833575.BJ 833575.BJ 下降→上涨 R²=0.73 质量=68.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_833575.BJ.png" alt="833575.BJ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">833751.BJ 833751.BJ 下降→上涨 R²=0.84 质量=49.6</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_833751.BJ.png" alt="833751.BJ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">833943.BJ 833943.BJ 下降→上涨 R²=0.80 质量=40.8</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_833943.BJ.png" alt="833943.BJ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">836221.BJ 836221.BJ 下降→上涨 R²=0.73 质量=43.7</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_836221.BJ.png" alt="836221.BJ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">837023.BJ 837023.BJ 下降→上涨 R²=0.74 质量=37.1</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_837023.BJ.png" alt="837023.BJ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <div class="chart-title">870436.BJ 870436.BJ 下降→上涨 R²=0.71 质量=48.4</div>
+                    <div class="chart-content">
+                        <img src="images/global_arc_870436.BJ.png" alt="870436.BJ 圆弧底分析" style="width: 100%; height: auto;">
+                    </div>
+                </div>
+                </div></div>
+        <script>
+            let currentPage = 1;
+            const totalPages = 2;
+            
+            function showPage(page) {
+                // 隐藏所有页面
+                for (let i = 1; i <= totalPages; i++) {
+                    document.getElementById(`page${i}`).style.display = 'none';
+                }
+                
+                // 显示当前页面
+                document.getElementById(`page${page}`).style.display = 'block';
+                
+                // 更新按钮状态
+                document.getElementById('prevPageBtn').disabled = page <= 1;
+                document.getElementById('nextPageBtn').disabled = page >= totalPages;
+                
+                // 更新页面信息
+                document.getElementById('pageInfo').textContent = `第 ${page} 页，共 ${totalPages} 页`;
+            }
+            
+            function prevPage() {
+                if (currentPage > 1) {
+                    currentPage--;
+                    showPage(currentPage);
+                }
+            }
+            
+            function nextPage() {
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    showPage(currentPage);
+                }
+            }
+            
+            // 初始化页面
+            showPage(1);
+        </script>
+
+    </div>
+</body>
+</html>
