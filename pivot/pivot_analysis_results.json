@@ -1,0 +1,3602 @@
+{
+  "603959.SH": {
+    "accuracy_score": 0.9853506806325163,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 3,
+      "lows_filtered": 1,
+      "filter_ratio": 0.2666666666666667
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 98.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.96% (历史均值: 14.66%)\n  • ATR(7日): 9.72% | ATR(21日): 8.79%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.01% (考虑开盘价跳空)\n  • Parkinson: 0.94% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 17.20% (75分位数)\n  • 相对水平: 显著低于历史均值 (-38.9%)\n📉 稳定性分析:\n  • 变异系数: 0.70 - 波动率变化较大\n  • 标准差: 10.20%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603185.SH": {
+    "accuracy_score": 0.9512976453235099,
+    "total_periods": 10,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.09999999999999998
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.23% (历史均值: 12.09%)\n  • ATR(7日): 8.54% | ATR(21日): 8.90%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.56% (考虑开盘价跳空)\n  • Parkinson: 0.52% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.30% (75分位数)\n  • 相对水平: 显著低于历史均值 (-31.9%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.87%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300769.SZ": {
+    "accuracy_score": 0.9004801239650096,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.08333333333333337
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.37% (历史均值: 16.97%)\n  • ATR(7日): 9.32% | ATR(21日): 11.95%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.84% (考虑开盘价跳空)\n  • Parkinson: 0.78% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 19.59% (75分位数)\n  • 相对水平: 显著低于历史均值 (-38.9%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 3.95%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688639.SH": {
+    "accuracy_score": 0.8693937225689985,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.05882352941176472
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 86.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.26% (历史均值: 13.46%)\n  • ATR(7日): 7.39% | ATR(21日): 10.07%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.88% (考虑开盘价跳空)\n  • Parkinson: 0.94% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 16.59% (75分位数)\n  • 相对水平: 显著低于历史均值 (-38.6%)\n📉 稳定性分析:\n  • 变异系数: 0.39 - 波动率中等变化\n  • 标准差: 5.21%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603032.SH": {
+    "accuracy_score": 0.9965136548518303,
+    "total_periods": 11,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 99.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.85% (历史均值: 13.41%)\n  • ATR(7日): 10.50% | ATR(21日): 10.02%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.71% (考虑开盘价跳空)\n  • Parkinson: 0.61% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 16.15% (75分位数)\n  • 相对水平: 显著低于历史均值 (-26.6%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 3.07%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688063.SH": {
+    "accuracy_score": 0.9339065890902943,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.07692307692307687
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.99% (历史均值: 14.78%)\n  • ATR(7日): 8.60% | ATR(21日): 10.22%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.56% (考虑开盘价跳空)\n  • Parkinson: 0.65% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 16.20% (75分位数)\n  • 相对水平: 显著低于历史均值 (-39.2%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 3.36%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301120.SZ": {
+    "accuracy_score": 0.9242433643809628,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.51% (历史均值: 11.61%)\n  • ATR(7日): 12.41% | ATR(21日): 9.82%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.18% (考虑开盘价跳空)\n  • Parkinson: 1.00% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 13.00% (75分位数)\n  • 相对水平: 接近历史均值 (-9.5%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 2.01%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002549.SZ": {
+    "accuracy_score": 0.9549076520824522,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 12.20% (历史均值: 10.97%)\n  • ATR(7日): 13.55% | ATR(21日): 11.03%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.33% (考虑开盘价跳空)\n  • Parkinson: 0.37% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: high_vol - 高波动率环境（谨慎操作）\n  • 动态阈值: 12.21% (75分位数)\n  • 相对水平: 高于历史均值 (+11.3%)\n📉 稳定性分析:\n  • 变异系数: 0.15 - 波动率较为稳定\n  • 标准差: 1.60%\n💡 交易含义:\n  • 高波动环境需要更严格的风险控制\n  • 可能出现更多假突破",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688077.SH": {
+    "accuracy_score": 0.9587418111000552,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 12.21% (历史均值: 13.33%)\n  • ATR(7日): 14.10% | ATR(21日): 11.11%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.85% (考虑开盘价跳空)\n  • Parkinson: 0.82% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 15.37% (75分位数)\n  • 相对水平: 接近历史均值 (-8.4%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 3.07%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "601908.SH": {
+    "accuracy_score": 0.8235641814901996,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 82.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.76% (历史均值: 8.44%)\n  • ATR(7日): 11.41% | ATR(21日): 8.98%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.61% (考虑开盘价跳空)\n  • Parkinson: 1.37% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: high_vol - 高波动率环境（谨慎操作）\n  • 动态阈值: 9.78% (75分位数)\n  • 相对水平: 高于历史均值 (+15.6%)\n📉 稳定性分析:\n  • 变异系数: 0.26 - 波动率较为稳定\n  • 标准差: 2.19%\n💡 交易含义:\n  • 高波动环境需要更严格的风险控制\n  • 可能出现更多假突破",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300887.SZ": {
+    "accuracy_score": 0.9107484338308789,
+    "total_periods": 19,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 2,
+      "filter_ratio": 0.1578947368421053
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.33% (历史均值: 13.54%)\n  • ATR(7日): 8.78% | ATR(21日): 10.23%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.45% (考虑开盘价跳空)\n  • Parkinson: 0.43% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 16.54% (75分位数)\n  • 相对水平: 显著低于历史均值 (-31.1%)\n📉 稳定性分析:\n  • 变异系数: 0.29 - 波动率较为稳定\n  • 标准差: 3.96%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688189.SH": {
+    "accuracy_score": 0.892842621783831,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.16666666666666663
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 89.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.12% (历史均值: 10.47%)\n  • ATR(7日): 8.76% | ATR(21日): 6.74%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.90% (考虑开盘价跳空)\n  • Parkinson: 2.50% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.85% (75分位数)\n  • 相对水平: 显著低于历史均值 (-32.0%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 2.00%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "001269.SZ": {
+    "accuracy_score": 0.9058466383525237,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.15384615384615385
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.91% (历史均值: 14.63%)\n  • ATR(7日): 10.51% | ATR(21日): 10.46%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.50% (考虑开盘价跳空)\n  • Parkinson: 0.52% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.99% (75分位数)\n  • 相对水平: 显著低于历史均值 (-32.2%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 3.07%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603444.SH": {
+    "accuracy_score": 0.9517803849672601,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 3,
+      "lows_filtered": 2,
+      "filter_ratio": 0.33333333333333337
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.70% (历史均值: 10.06%)\n  • ATR(7日): 7.36% | ATR(21日): 6.53%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.32% (考虑开盘价跳空)\n  • Parkinson: 0.28% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.21% (75分位数)\n  • 相对水平: 显著低于历史均值 (-33.3%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 2.33%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688298.SH": {
+    "accuracy_score": 0.8618982979920458,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.16666666666666663
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 86.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.78% (历史均值: 9.65%)\n  • ATR(7日): 6.74% | ATR(21日): 8.43%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.41% (考虑开盘价跳空)\n  • Parkinson: 0.37% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.55% (75分位数)\n  • 相对水平: 低于历史均值 (-19.4%)\n📉 稳定性分析:\n  • 变异系数: 0.15 - 波动率较为稳定\n  • 标准差: 1.44%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "000803.SZ": {
+    "accuracy_score": 0.8886678855952537,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 88.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.82% (历史均值: 10.38%)\n  • ATR(7日): 8.30% | ATR(21日): 7.66%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.20% (考虑开盘价跳空)\n  • Parkinson: 1.21% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.12% (75分位数)\n  • 相对水平: 显著低于历史均值 (-24.6%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 2.00%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688201.SH": {
+    "accuracy_score": 0.9684807760691551,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.06666666666666665
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.28% (历史均值: 16.78%)\n  • ATR(7日): 11.05% | ATR(21日): 10.74%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.73% (考虑开盘价跳空)\n  • Parkinson: 0.74% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 19.00% (75分位数)\n  • 相对水平: 显著低于历史均值 (-38.7%)\n📉 稳定性分析:\n  • 变异系数: 0.29 - 波动率较为稳定\n  • 标准差: 4.82%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002459.SZ": {
+    "accuracy_score": 0.9379428646077568,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.16666666666666663
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.87% (历史均值: 13.05%)\n  • ATR(7日): 8.16% | ATR(21日): 10.05%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.59% (考虑开盘价跳空)\n  • Parkinson: 0.62% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.53% (75分位数)\n  • 相对水平: 显著低于历史均值 (-32.0%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 2.10%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688131.SH": {
+    "accuracy_score": 0.966165574912582,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.08333333333333337
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.62% (历史均值: 12.47%)\n  • ATR(7日): 9.59% | ATR(21日): 8.23%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.97% (考虑开盘价跳空)\n  • Parkinson: 0.90% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.56% (75分位数)\n  • 相对水平: 显著低于历史均值 (-30.9%)\n📉 稳定性分析:\n  • 变异系数: 0.26 - 波动率较为稳定\n  • 标准差: 3.29%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688618.SH": {
+    "accuracy_score": 0.9440384287201458,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 2,
+      "filter_ratio": 0.1333333333333333
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.61% (历史均值: 14.20%)\n  • ATR(7日): 6.35% | ATR(21日): 8.93%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.42% (考虑开盘价跳空)\n  • Parkinson: 0.36% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.69% (75分位数)\n  • 相对水平: 显著低于历史均值 (-46.4%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 3.22%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688202.SH": {
+    "accuracy_score": 0.9341521465668742,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.46% (历史均值: 14.50%)\n  • ATR(7日): 11.31% | ATR(21日): 9.24%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.92% (考虑开盘价跳空)\n  • Parkinson: 1.05% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 17.26% (75分位数)\n  • 相对水平: 显著低于历史均值 (-34.7%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 3.30%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688499.SH": {
+    "accuracy_score": 0.9708861738747189,
+    "total_periods": 10,
+    "filtered_pivot_highs_count": 3,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.09999999999999998
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 3 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 97.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.50% (历史均值: 20.99%)\n  • ATR(7日): 10.49% | ATR(21日): 9.40%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.85% (考虑开盘价跳空)\n  • Parkinson: 0.79% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 27.64% (75分位数)\n  • 相对水平: 显著低于历史均值 (-54.8%)\n📉 稳定性分析:\n  • 变异系数: 0.44 - 波动率中等变化\n  • 标准差: 9.24%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688513.SH": {
+    "accuracy_score": 0.9079065483795987,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.23% (历史均值: 8.51%)\n  • ATR(7日): 10.36% | ATR(21日): 8.74%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.68% (考虑开盘价跳空)\n  • Parkinson: 0.72% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: high_vol - 高波动率环境（谨慎操作）\n  • 动态阈值: 9.44% (75分位数)\n  • 相对水平: 接近历史均值 (+8.5%)\n📉 稳定性分析:\n  • 变异系数: 0.25 - 波动率较为稳定\n  • 标准差: 2.16%\n💡 交易含义:\n  • 高波动环境需要更严格的风险控制\n  • 可能出现更多假突破",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688711.SH": {
+    "accuracy_score": 0.9324518694254369,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.19% (历史均值: 12.99%)\n  • ATR(7日): 6.15% | ATR(21日): 8.52%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.74% (考虑开盘价跳空)\n  • Parkinson: 0.81% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.31% (75分位数)\n  • 相对水平: 显著低于历史均值 (-44.7%)\n📉 稳定性分析:\n  • 变异系数: 0.25 - 波动率较为稳定\n  • 标准差: 3.30%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603876.SH": {
+    "accuracy_score": 0.8322277106398468,
+    "total_periods": 9,
+    "filtered_pivot_highs_count": 3,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 3 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 83.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.38% (历史均值: 11.12%)\n  • ATR(7日): 4.45% | ATR(21日): 6.30%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.30% (考虑开盘价跳空)\n  • Parkinson: 0.26% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.21% (75分位数)\n  • 相对水平: 显著低于历史均值 (-51.6%)\n📉 稳定性分析:\n  • 变异系数: 0.30 - 波动率较为稳定\n  • 标准差: 3.32%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301096.SZ": {
+    "accuracy_score": 0.848581250500152,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 84.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.11% (历史均值: 9.11%)\n  • ATR(7日): 7.37% | ATR(21日): 7.29%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.37% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.36% (75分位数)\n  • 相对水平: 显著低于历史均值 (-21.9%)\n📉 稳定性分析:\n  • 变异系数: 0.22 - 波动率较为稳定\n  • 标准差: 2.04%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301372.SZ": {
+    "accuracy_score": 0.9152675128783709,
+    "total_periods": 11,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.65% (历史均值: 13.49%)\n  • ATR(7日): 6.77% | ATR(21日): 8.61%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.36% (考虑开盘价跳空)\n  • Parkinson: 0.33% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.85% (75分位数)\n  • 相对水平: 显著低于历史均值 (-43.3%)\n📉 稳定性分析:\n  • 变异系数: 0.22 - 波动率较为稳定\n  • 标准差: 3.00%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688390.SH": {
+    "accuracy_score": 0.8745083689144615,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.125
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 87.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.91% (历史均值: 16.79%)\n  • ATR(7日): 7.05% | ATR(21日): 11.36%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.41% (考虑开盘价跳空)\n  • Parkinson: 0.42% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 19.41% (75分位数)\n  • 相对水平: 显著低于历史均值 (-47.0%)\n📉 稳定性分析:\n  • 变异系数: 0.22 - 波动率较为稳定\n  • 标准差: 3.72%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002528.SZ": {
+    "accuracy_score": 0.9452672564627024,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1428571428571429
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.06% (历史均值: 16.15%)\n  • ATR(7日): 8.90% | ATR(21日): 10.15%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.62% (考虑开盘价跳空)\n  • Parkinson: 0.57% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 17.56% (75分位数)\n  • 相对水平: 显著低于历史均值 (-43.9%)\n📉 稳定性分析:\n  • 变异系数: 0.38 - 波动率中等变化\n  • 标准差: 6.19%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688670.SH": {
+    "accuracy_score": 0.9410302027426148,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1333333333333333
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.80% (历史均值: 13.57%)\n  • ATR(7日): 5.65% | ATR(21日): 8.06%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.45% (考虑开盘价跳空)\n  • Parkinson: 0.40% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.69% (75分位数)\n  • 相对水平: 显著低于历史均值 (-49.9%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 2.83%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688348.SH": {
+    "accuracy_score": 0.8317257276310421,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 3,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.08333333333333337
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 3 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 83.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.31% (历史均值: 21.12%)\n  • ATR(7日): 5.40% | ATR(21日): 10.16%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.34% (考虑开盘价跳空)\n  • Parkinson: 0.30% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 29.65% (75分位数)\n  • 相对水平: 显著低于历史均值 (-65.4%)\n📉 稳定性分析:\n  • 变异系数: 0.39 - 波动率中等变化\n  • 标准差: 8.21%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688033.SH": {
+    "accuracy_score": 0.9048204038966227,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.45% (历史均值: 10.98%)\n  • ATR(7日): 5.86% | ATR(21日): 7.37%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.49% (考虑开盘价跳空)\n  • Parkinson: 0.43% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.86% (75分位数)\n  • 相对水平: 显著低于历史均值 (-41.3%)\n📉 稳定性分析:\n  • 变异系数: 0.27 - 波动率较为稳定\n  • 标准差: 2.95%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002250.SZ": {
+    "accuracy_score": 0.9137730734477862,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 3,
+      "lows_filtered": 0,
+      "filter_ratio": 0.2142857142857143
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.96% (历史均值: 8.19%)\n  • ATR(7日): 13.09% | ATR(21日): 9.44%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.28% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: high_vol - 高波动率环境（谨慎操作）\n  • 动态阈值: 8.74% (75分位数)\n  • 相对水平: 显著高于历史均值 (+33.7%)\n📉 稳定性分析:\n  • 变异系数: 0.15 - 波动率较为稳定\n  • 标准差: 1.24%\n💡 交易含义:\n  • 高波动环境需要更严格的风险控制\n  • 可能出现更多假突破",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300586.SZ": {
+    "accuracy_score": 0.9198083120602278,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.43% (历史均值: 9.82%)\n  • ATR(7日): 9.63% | ATR(21日): 8.00%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.99% (考虑开盘价跳空)\n  • Parkinson: 0.89% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.02% (75分位数)\n  • 相对水平: 低于历史均值 (-14.2%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 2.09%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002805.SZ": {
+    "accuracy_score": 0.9031607392766452,
+    "total_periods": 11,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.09090909090909094
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.28% (历史均值: 12.83%)\n  • ATR(7日): 9.28% | ATR(21日): 9.75%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.72% (考虑开盘价跳空)\n  • Parkinson: 0.77% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.56% (75分位数)\n  • 相对水平: 显著低于历史均值 (-27.6%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 2.47%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688265.SH": {
+    "accuracy_score": 0.8849392389655258,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.11111111111111116
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 88.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.35% (历史均值: 8.89%)\n  • ATR(7日): 7.99% | ATR(21日): 7.20%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.00% (考虑开盘价跳空)\n  • Parkinson: 1.10% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.12% (75分位数)\n  • 相对水平: 低于历史均值 (-17.4%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 1.68%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688719.SH": {
+    "accuracy_score": 0.9538448071314563,
+    "total_periods": 10,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 11.74% (历史均值: 14.10%)\n  • ATR(7日): 12.80% | ATR(21日): 11.32%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.73% (考虑开盘价跳空)\n  • Parkinson: 0.63% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.91% (75分位数)\n  • 相对水平: 低于历史均值 (-16.7%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 3.25%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002192.SZ": {
+    "accuracy_score": 0.857212472718204,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1875
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 85.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.33% (历史均值: 10.88%)\n  • ATR(7日): 6.19% | ATR(21日): 7.03%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.50% (考虑开盘价跳空)\n  • Parkinson: 0.63% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.13% (75分位数)\n  • 相对水平: 显著低于历史均值 (-41.8%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 2.03%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688560.SH": {
+    "accuracy_score": 0.9224268889779278,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.07692307692307687
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.10% (历史均值: 11.92%)\n  • ATR(7日): 7.60% | ATR(21日): 8.59%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.66% (考虑开盘价跳空)\n  • Parkinson: 0.61% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.15% (75分位数)\n  • 相对水平: 显著低于历史均值 (-32.0%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.92%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301153.SZ": {
+    "accuracy_score": 0.9352433077865292,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 2,
+      "filter_ratio": 0.25
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.21% (历史均值: 16.48%)\n  • ATR(7日): 9.21% | ATR(21日): 11.72%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.99% (考虑开盘价跳空)\n  • Parkinson: 0.86% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 19.93% (75分位数)\n  • 相对水平: 显著低于历史均值 (-38.0%)\n📉 稳定性分析:\n  • 变异系数: 0.32 - 波动率中等变化\n  • 标准差: 5.32%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688075.SH": {
+    "accuracy_score": 0.8667256229219085,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 2,
+      "filter_ratio": 0.17647058823529416
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 86.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.20% (历史均值: 8.84%)\n  • ATR(7日): 4.92% | ATR(21日): 5.55%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.90% (考虑开盘价跳空)\n  • Parkinson: 0.93% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.02% (75分位数)\n  • 相对水平: 显著低于历史均值 (-41.2%)\n📉 稳定性分析:\n  • 变异系数: 0.29 - 波动率较为稳定\n  • 标准差: 2.56%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301260.SZ": {
+    "accuracy_score": 0.9629742133124263,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.07692307692307687
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.57% (历史均值: 10.07%)\n  • ATR(7日): 10.58% | ATR(21日): 8.81%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.57% (考虑开盘价跳空)\n  • Parkinson: 0.49% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 11.35% (75分位数)\n  • 相对水平: 接近历史均值 (-5.0%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 1.71%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300767.SZ": {
+    "accuracy_score": 0.9144091391485859,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.08333333333333337
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.70% (历史均值: 12.07%)\n  • ATR(7日): 9.63% | ATR(21日): 9.85%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.49% (考虑开盘价跳空)\n  • Parkinson: 0.48% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.33% (75分位数)\n  • 相对水平: 低于历史均值 (-19.6%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.97%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688599.SH": {
+    "accuracy_score": 0.9347708042625849,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 0,
+      "filter_ratio": 0.125
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.64% (历史均值: 11.44%)\n  • ATR(7日): 7.38% | ATR(21日): 9.92%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.43% (考虑开盘价跳空)\n  • Parkinson: 0.44% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.15% (75分位数)\n  • 相对水平: 显著低于历史均值 (-24.5%)\n📉 稳定性分析:\n  • 变异系数: 0.11 - 波动率较为稳定\n  • 标准差: 1.28%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688275.SH": {
+    "accuracy_score": 0.8279832769418679,
+    "total_periods": 10,
+    "filtered_pivot_highs_count": 3,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.09999999999999998
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 3 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 82.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.48% (历史均值: 9.84%)\n  • ATR(7日): 7.52% | ATR(21日): 10.42%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.58% (考虑开盘价跳空)\n  • Parkinson: 0.51% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 11.59% (75分位数)\n  • 相对水平: 接近历史均值 (-3.7%)\n📉 稳定性分析:\n  • 变异系数: 0.26 - 波动率较为稳定\n  • 标准差: 2.55%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688066.SH": {
+    "accuracy_score": 0.9657880862632298,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.94% (历史均值: 15.67%)\n  • ATR(7日): 6.86% | ATR(21日): 10.71%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.50% (考虑开盘价跳空)\n  • Parkinson: 0.42% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 19.26% (75分位数)\n  • 相对水平: 显著低于历史均值 (-43.0%)\n📉 稳定性分析:\n  • 变异系数: 0.29 - 波动率较为稳定\n  • 标准差: 4.49%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300982.SZ": {
+    "accuracy_score": 0.9632102893643655,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.05882352941176472
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.88% (历史均值: 12.40%)\n  • ATR(7日): 9.12% | ATR(21日): 8.05%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.99% (考虑开盘价跳空)\n  • Parkinson: 0.86% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.73% (75分位数)\n  • 相对水平: 显著低于历史均值 (-36.5%)\n📉 稳定性分析:\n  • 变异系数: 0.26 - 波动率较为稳定\n  • 标准差: 3.24%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300533.SZ": {
+    "accuracy_score": 0.9766817828105294,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 97.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.75% (历史均值: 13.22%)\n  • ATR(7日): 11.22% | ATR(21日): 9.06%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.10% (考虑开盘价跳空)\n  • Parkinson: 1.06% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.90% (75分位数)\n  • 相对水平: 显著低于历史均值 (-26.2%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 2.76%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688707.SH": {
+    "accuracy_score": 0.8712325907505526,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 87.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.97% (历史均值: 11.35%)\n  • ATR(7日): 7.39% | ATR(21日): 8.55%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.62% (考虑开盘价跳空)\n  • Parkinson: 0.56% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.07% (75分位数)\n  • 相对水平: 显著低于历史均值 (-29.8%)\n📉 稳定性分析:\n  • 变异系数: 0.18 - 波动率较为稳定\n  • 标准差: 2.07%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688317.SH": {
+    "accuracy_score": 0.8315860782424144,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 10,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 0,
+      "filter_ratio": 0.11764705882352944
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，10 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 83.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.62% (历史均值: 7.74%)\n  • ATR(7日): 7.26% | ATR(21日): 5.32%\n📈 高级波动率估计器:\n  • Garman-Klass: 2.31% (考虑开盘价跳空)\n  • Parkinson: 2.95% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 8.82% (75分位数)\n  • 相对水平: 显著低于历史均值 (-27.3%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 1.32%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "605168.SH": {
+    "accuracy_score": 0.980569237685808,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 3,
+      "lows_filtered": 1,
+      "filter_ratio": 0.2857142857142857
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 98.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.16% (历史均值: 13.55%)\n  • ATR(7日): 6.71% | ATR(21日): 8.27%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.76% (考虑开盘价跳空)\n  • Parkinson: 0.80% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.82% (75分位数)\n  • 相对水平: 显著低于历史均值 (-47.1%)\n📉 稳定性分析:\n  • 变异系数: 0.31 - 波动率中等变化\n  • 标准差: 4.17%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688203.SH": {
+    "accuracy_score": 0.8935769867977512,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.05555555555555558
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 89.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.62% (历史均值: 8.61%)\n  • ATR(7日): 10.60% | ATR(21日): 7.82%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.35% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 9.92% (75分位数)\n  • 相对水平: 接近历史均值 (+0.1%)\n📉 稳定性分析:\n  • 变异系数: 0.20 - 波动率较为稳定\n  • 标准差: 1.71%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300142.SZ": {
+    "accuracy_score": 0.8035770565132337,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 3,
+      "lows_filtered": 0,
+      "filter_ratio": 0.1875
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 80.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.82% (历史均值: 9.14%)\n  • ATR(7日): 6.07% | ATR(21日): 7.69%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.38% (考虑开盘价跳空)\n  • Parkinson: 0.38% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.47% (75分位数)\n  • 相对水平: 显著低于历史均值 (-25.4%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.47%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603936.SH": {
+    "accuracy_score": 0.9469358766933426,
+    "total_periods": 21,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 10,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 2,
+      "filter_ratio": 0.1428571428571429
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，10 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.12% (历史均值: 9.62%)\n  • ATR(7日): 9.30% | ATR(21日): 7.91%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.64% (考虑开盘价跳空)\n  • Parkinson: 0.57% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.90% (75分位数)\n  • 相对水平: 低于历史均值 (-15.6%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 1.64%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301511.SZ": {
+    "accuracy_score": 0.9621275080137718,
+    "total_periods": 9,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 4,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，4 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.18% (历史均值: 15.52%)\n  • ATR(7日): 11.11% | ATR(21日): 8.80%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.10% (考虑开盘价跳空)\n  • Parkinson: 0.99% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 18.51% (75分位数)\n  • 相对水平: 显著低于历史均值 (-40.9%)\n📉 稳定性分析:\n  • 变异系数: 0.26 - 波动率较为稳定\n  • 标准差: 4.04%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688357.SH": {
+    "accuracy_score": 0.8212963139312195,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.06666666666666665
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 82.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.19% (历史均值: 12.03%)\n  • ATR(7日): 6.81% | ATR(21日): 7.76%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.40% (考虑开盘价跳空)\n  • Parkinson: 0.36% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.55% (75分位数)\n  • 相对水平: 显著低于历史均值 (-40.2%)\n📉 稳定性分析:\n  • 变异系数: 0.22 - 波动率较为稳定\n  • 标准差: 2.68%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603595.SH": {
+    "accuracy_score": 0.9325469922869581,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.19999999999999996
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.47% (历史均值: 12.63%)\n  • ATR(7日): 8.33% | ATR(21日): 10.12%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.52% (考虑开盘价跳空)\n  • Parkinson: 0.49% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.23% (75分位数)\n  • 相对水平: 显著低于历史均值 (-25.0%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 2.45%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300518.SZ": {
+    "accuracy_score": 0.8997488813850658,
+    "total_periods": 10,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.59% (历史均值: 14.36%)\n  • ATR(7日): 10.94% | ATR(21日): 10.72%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.56% (考虑开盘价跳空)\n  • Parkinson: 0.56% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 16.45% (75分位数)\n  • 相对水平: 显著低于历史均值 (-26.2%)\n📉 稳定性分析:\n  • 变异系数: 0.20 - 波动率较为稳定\n  • 标准差: 2.82%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300410.SZ": {
+    "accuracy_score": 0.9211924342659109,
+    "total_periods": 19,
+    "filtered_pivot_highs_count": 10,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 10 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.12% (历史均值: 12.78%)\n  • ATR(7日): 9.09% | ATR(21日): 8.09%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.75% (考虑开盘价跳空)\n  • Parkinson: 0.82% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.87% (75分位数)\n  • 相对水平: 显著低于历史均值 (-36.4%)\n📉 稳定性分析:\n  • 变异系数: 0.25 - 波动率较为稳定\n  • 标准差: 3.22%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603212.SH": {
+    "accuracy_score": 0.8664321138189263,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 2,
+      "filter_ratio": 0.1875
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 86.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.71% (历史均值: 11.10%)\n  • ATR(7日): 11.22% | ATR(21日): 9.58%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.71% (考虑开盘价跳空)\n  • Parkinson: 0.78% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.35% (75分位数)\n  • 相对水平: 低于历史均值 (-12.5%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.75%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002121.SZ": {
+    "accuracy_score": 0.9635041538503367,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 0,
+      "filter_ratio": 0.125
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.47% (历史均值: 9.88%)\n  • ATR(7日): 8.93% | ATR(21日): 7.03%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.56% (考虑开盘价跳空)\n  • Parkinson: 1.48% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.18% (75分位数)\n  • 相对水平: 显著低于历史均值 (-24.4%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.59%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688787.SH": {
+    "accuracy_score": 0.9633357296908699,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.08333333333333337
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 11.75% (历史均值: 17.17%)\n  • ATR(7日): 10.39% | ATR(21日): 12.23%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.86% (考虑开盘价跳空)\n  • Parkinson: 1.03% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 19.04% (75分位数)\n  • 相对水平: 显著低于历史均值 (-31.6%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 3.98%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688148.SH": {
+    "accuracy_score": 0.9807918374385615,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 98.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.63% (历史均值: 11.17%)\n  • ATR(7日): 8.42% | ATR(21日): 9.10%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.82% (考虑开盘价跳空)\n  • Parkinson: 0.70% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.72% (75分位数)\n  • 相对水平: 显著低于历史均值 (-22.8%)\n📉 稳定性分析:\n  • 变异系数: 0.18 - 波动率较为稳定\n  • 标准差: 2.04%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002240.SZ": {
+    "accuracy_score": 0.8152254215550915,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.08333333333333337
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 81.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.17% (历史均值: 9.58%)\n  • ATR(7日): 7.19% | ATR(21日): 7.79%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.06% (考虑开盘价跳空)\n  • Parkinson: 0.93% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.53% (75分位数)\n  • 相对水平: 显著低于历史均值 (-25.2%)\n📉 稳定性分析:\n  • 变异系数: 0.14 - 波动率较为稳定\n  • 标准差: 1.32%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301071.SZ": {
+    "accuracy_score": 0.8074894732401771,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1428571428571429
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 80.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.93% (历史均值: 9.70%)\n  • ATR(7日): 6.45% | ATR(21日): 8.67%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.27% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.59% (75分位数)\n  • 相对水平: 低于历史均值 (-18.2%)\n📉 稳定性分析:\n  • 变异系数: 0.15 - 波动率较为稳定\n  • 标准差: 1.45%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688391.SH": {
+    "accuracy_score": 0.8850011583082938,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 88.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.19% (历史均值: 11.71%)\n  • ATR(7日): 4.71% | ATR(21日): 7.49%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.34% (考虑开盘价跳空)\n  • Parkinson: 0.29% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.86% (75分位数)\n  • 相对水平: 显著低于历史均值 (-47.2%)\n📉 稳定性分析:\n  • 变异系数: 0.24 - 波动率较为稳定\n  • 标准差: 2.80%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603806.SH": {
+    "accuracy_score": 0.9136303263242209,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 3,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 3,
+      "lows_filtered": 1,
+      "filter_ratio": 0.2666666666666667
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 3 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.89% (历史均值: 12.51%)\n  • ATR(7日): 5.75% | ATR(21日): 8.48%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.34% (考虑开盘价跳空)\n  • Parkinson: 0.43% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.70% (75分位数)\n  • 相对水平: 显著低于历史均值 (-44.9%)\n📉 稳定性分析:\n  • 变异系数: 0.22 - 波动率较为稳定\n  • 标准差: 2.79%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301322.SZ": {
+    "accuracy_score": 0.9437798933037415,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.2142857142857143
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.63% (历史均值: 10.86%)\n  • ATR(7日): 9.72% | ATR(21日): 9.52%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.33% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.50% (75分位数)\n  • 相对水平: 低于历史均值 (-11.3%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 2.10%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603396.SH": {
+    "accuracy_score": 0.9287455673300963,
+    "total_periods": 20,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 10,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 0,
+      "filter_ratio": 0.09999999999999998
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，10 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.02% (历史均值: 10.73%)\n  • ATR(7日): 5.20% | ATR(21日): 7.08%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.30% (考虑开盘价跳空)\n  • Parkinson: 0.26% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.13% (75分位数)\n  • 相对水平: 显著低于历史均值 (-43.9%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 2.01%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "000546.SZ": {
+    "accuracy_score": 0.8812611883656676,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.06666666666666665
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 88.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.03% (历史均值: 11.56%)\n  • ATR(7日): 7.79% | ATR(21日): 8.75%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.38% (考虑开盘价跳空)\n  • Parkinson: 1.20% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.35% (75分位数)\n  • 相对水平: 显著低于历史均值 (-30.5%)\n📉 稳定性分析:\n  • 变异系数: 0.25 - 波动率较为稳定\n  • 标准差: 2.83%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688726.SH": {
+    "accuracy_score": 0.9202505219206683,
+    "total_periods": 3,
+    "filtered_pivot_highs_count": 1,
+    "filtered_pivot_lows_count": 2,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 1 个高点，2 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.57% (历史均值: 9.53%)\n  • ATR(7日): 7.08% | ATR(21日): 8.02%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.43% (考虑开盘价跳空)\n  • Parkinson: 0.39% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 9.77% (75分位数)\n  • 相对水平: 显著低于历史均值 (-20.5%)\n📉 稳定性分析:\n  • 变异系数: 0.10 - 波动率较为稳定\n  • 标准差: 0.98%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "⚠️  中等质量信号，建议结合其他指标"
+    }
+  },
+  "603208.SH": {
+    "accuracy_score": 0.8565015306278584,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 85.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.08% (历史均值: 11.28%)\n  • ATR(7日): 6.71% | ATR(21日): 7.94%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.42% (考虑开盘价跳空)\n  • Parkinson: 0.36% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.71% (75分位数)\n  • 相对水平: 显著低于历史均值 (-37.2%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 2.37%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "600328.SH": {
+    "accuracy_score": 0.7535551647750336,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 2,
+      "filter_ratio": 0.19999999999999996
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Good (F1: 75.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 4.67% (历史均值: 11.00%)\n  • ATR(7日): 4.90% | ATR(21日): 4.95%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.64% (考虑开盘价跳空)\n  • Parkinson: 0.57% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.88% (75分位数)\n  • 相对水平: 显著低于历史均值 (-57.5%)\n📉 稳定性分析:\n  • 变异系数: 0.63 - 波动率变化较大\n  • 标准差: 6.89%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688556.SH": {
+    "accuracy_score": 0.9233753827465234,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.125
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 14.10% (历史均值: 14.18%)\n  • ATR(7日): 12.79% | ATR(21日): 16.35%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.41% (考虑开盘价跳空)\n  • Parkinson: 0.35% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 15.28% (75分位数)\n  • 相对水平: 接近历史均值 (-0.5%)\n📉 稳定性分析:\n  • 变异系数: 0.25 - 波动率较为稳定\n  • 标准差: 3.48%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688026.SH": {
+    "accuracy_score": 0.9351089080706381,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 10,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，10 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.40% (历史均值: 8.40%)\n  • ATR(7日): 6.54% | ATR(21日): 6.45%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.89% (考虑开盘价跳空)\n  • Parkinson: 0.93% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.53% (75分位数)\n  • 相对水平: 显著低于历史均值 (-23.9%)\n📉 稳定性分析:\n  • 变异系数: 0.29 - 波动率较为稳定\n  • 标准差: 2.41%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002197.SZ": {
+    "accuracy_score": 0.9707531564271256,
+    "total_periods": 19,
+    "filtered_pivot_highs_count": 9,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.052631578947368474
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 9 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 97.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.43% (历史均值: 11.70%)\n  • ATR(7日): 9.02% | ATR(21日): 8.25%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.59% (考虑开盘价跳空)\n  • Parkinson: 0.51% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.91% (75分位数)\n  • 相对水平: 显著低于历史均值 (-27.9%)\n📉 稳定性分析:\n  • 变异系数: 0.43 - 波动率中等变化\n  • 标准差: 5.02%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300813.SZ": {
+    "accuracy_score": 0.9541332673802886,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.80% (历史均值: 10.73%)\n  • ATR(7日): 7.59% | ATR(21日): 8.16%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.85% (考虑开盘价跳空)\n  • Parkinson: 0.83% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.88% (75分位数)\n  • 相对水平: 显著低于历史均值 (-27.3%)\n📉 稳定性分析:\n  • 变异系数: 0.27 - 波动率较为稳定\n  • 标准差: 2.94%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688308.SH": {
+    "accuracy_score": 0.8449717727734956,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.11111111111111116
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 84.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.64% (历史均值: 13.41%)\n  • ATR(7日): 5.44% | ATR(21日): 7.86%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.63% (考虑开盘价跳空)\n  • Parkinson: 0.56% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.98% (75分位数)\n  • 相对水平: 显著低于历史均值 (-50.5%)\n📉 稳定性分析:\n  • 变异系数: 0.20 - 波动率较为稳定\n  • 标准差: 2.65%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688339.SH": {
+    "accuracy_score": 0.9089637741706467,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.93% (历史均值: 11.44%)\n  • ATR(7日): 6.93% | ATR(21日): 9.09%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.46% (考虑开盘价跳空)\n  • Parkinson: 0.42% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.87% (75分位数)\n  • 相对水平: 显著低于历史均值 (-30.7%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 2.37%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "600976.SH": {
+    "accuracy_score": 0.9201533356500585,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.05882352941176472
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.29% (历史均值: 9.18%)\n  • ATR(7日): 3.97% | ATR(21日): 6.34%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.20% (考虑开盘价跳空)\n  • Parkinson: 0.17% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.38% (75分位数)\n  • 相对水平: 显著低于历史均值 (-42.4%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 1.58%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300393.SZ": {
+    "accuracy_score": 0.8128292577406667,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 81.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.62% (历史均值: 9.69%)\n  • ATR(7日): 7.35% | ATR(21日): 8.25%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.29% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.88% (75分位数)\n  • 相对水平: 显著低于历史均值 (-21.4%)\n📉 稳定性分析:\n  • 变异系数: 0.15 - 波动率较为稳定\n  • 标准差: 1.47%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688779.SH": {
+    "accuracy_score": 0.7902345441024538,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.19999999999999996
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Good (F1: 79.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.48% (历史均值: 8.31%)\n  • ATR(7日): 5.04% | ATR(21日): 6.11%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.47% (考虑开盘价跳空)\n  • Parkinson: 0.44% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 9.39% (75分位数)\n  • 相对水平: 显著低于历史均值 (-34.1%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 1.71%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "600009.SH": {
+    "accuracy_score": 0.7764211388683082,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Good (F1: 77.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 2.70% (历史均值: 5.44%)\n  • ATR(7日): 2.10% | ATR(21日): 3.23%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.16% (考虑开盘价跳空)\n  • Parkinson: 0.14% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 6.31% (75分位数)\n  • 相对水平: 显著低于历史均值 (-50.4%)\n📉 稳定性分析:\n  • 变异系数: 0.22 - 波动率较为稳定\n  • 标准差: 1.18%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603076.SH": {
+    "accuracy_score": 0.9072277211669187,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.51% (历史均值: 9.96%)\n  • ATR(7日): 11.65% | ATR(21日): 9.75%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.47% (考虑开盘价跳空)\n  • Parkinson: 0.41% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 10.86% (75分位数)\n  • 相对水平: 接近历史均值 (+5.6%)\n📉 稳定性分析:\n  • 变异系数: 0.12 - 波动率较为稳定\n  • 标准差: 1.23%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688680.SH": {
+    "accuracy_score": 0.9480726914971427,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 11.72% (历史均值: 16.33%)\n  • ATR(7日): 12.06% | ATR(21日): 11.76%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.11% (考虑开盘价跳空)\n  • Parkinson: 0.95% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 18.57% (75分位数)\n  • 相对水平: 显著低于历史均值 (-28.2%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 2.79%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "000929.SZ": {
+    "accuracy_score": 0.9052695241728655,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.89% (历史均值: 10.35%)\n  • ATR(7日): 7.20% | ATR(21日): 8.31%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.39% (考虑开盘价跳空)\n  • Parkinson: 0.41% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.28% (75分位数)\n  • 相对水平: 显著低于历史均值 (-23.7%)\n📉 稳定性分析:\n  • 变异系数: 0.26 - 波动率较为稳定\n  • 标准差: 2.66%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688023.SH": {
+    "accuracy_score": 0.864764862208319,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 86.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.45% (历史均值: 15.53%)\n  • ATR(7日): 9.42% | ATR(21日): 11.32%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.56% (考虑开盘价跳空)\n  • Parkinson: 0.52% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 17.58% (75分位数)\n  • 相对水平: 显著低于历史均值 (-32.7%)\n📉 稳定性分析:\n  • 变异系数: 0.24 - 波动率较为稳定\n  • 标准差: 3.65%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688700.SH": {
+    "accuracy_score": 0.9361971683757155,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.06666666666666665
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 11.95% (历史均值: 17.59%)\n  • ATR(7日): 11.98% | ATR(21日): 12.22%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.70% (考虑开盘价跳空)\n  • Parkinson: 0.64% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 20.60% (75分位数)\n  • 相对水平: 显著低于历史均值 (-32.0%)\n📉 稳定性分析:\n  • 变异系数: 0.20 - 波动率较为稳定\n  • 标准差: 3.55%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688016.SH": {
+    "accuracy_score": 0.9143493385266794,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.44% (历史均值: 9.66%)\n  • ATR(7日): 5.68% | ATR(21日): 7.37%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.69% (考虑开盘价跳空)\n  • Parkinson: 0.63% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.71% (75分位数)\n  • 相对水平: 显著低于历史均值 (-33.3%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 2.22%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002201.SZ": {
+    "accuracy_score": 0.9446599218037209,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.82% (历史均值: 9.56%)\n  • ATR(7日): 10.20% | ATR(21日): 8.25%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.69% (考虑开盘价跳空)\n  • Parkinson: 0.59% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 10.73% (75分位数)\n  • 相对水平: 接近历史均值 (-7.7%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 1.65%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603589.SH": {
+    "accuracy_score": 0.8020518852966099,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 80.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 4.32% (历史均值: 7.14%)\n  • ATR(7日): 3.46% | ATR(21日): 5.10%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.16% (考虑开盘价跳空)\n  • Parkinson: 0.17% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 7.99% (75分位数)\n  • 相对水平: 显著低于历史均值 (-39.5%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.18%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688598.SH": {
+    "accuracy_score": 0.9750901650066339,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.2142857142857143
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 97.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.77% (历史均值: 16.47%)\n  • ATR(7日): 8.10% | ATR(21日): 11.46%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.53% (考虑开盘价跳空)\n  • Parkinson: 0.46% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 18.95% (75分位数)\n  • 相对水平: 显著低于历史均值 (-40.7%)\n📉 稳定性分析:\n  • 变异系数: 0.32 - 波动率中等变化\n  • 标准差: 5.21%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603137.SH": {
+    "accuracy_score": 0.8983027528600356,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 2,
+      "filter_ratio": 0.1875
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 89.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 4.72% (历史均值: 7.99%)\n  • ATR(7日): 4.30% | ATR(21日): 5.05%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.20% (考虑开盘价跳空)\n  • Parkinson: 0.18% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 8.98% (75分位数)\n  • 相对水平: 显著低于历史均值 (-40.9%)\n📉 稳定性分析:\n  • 变异系数: 0.22 - 波动率较为稳定\n  • 标准差: 1.72%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "001222.SZ": {
+    "accuracy_score": 0.9099727281957365,
+    "total_periods": 22,
+    "filtered_pivot_highs_count": 9,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 3,
+      "lows_filtered": 1,
+      "filter_ratio": 0.18181818181818177
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 9 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.41% (历史均值: 8.87%)\n  • ATR(7日): 10.59% | ATR(21日): 9.76%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.38% (考虑开盘价跳空)\n  • Parkinson: 0.34% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: high_vol - 高波动率环境（谨慎操作）\n  • 动态阈值: 9.87% (75分位数)\n  • 相对水平: 高于历史均值 (+17.5%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.43%\n💡 交易含义:\n  • 高波动环境需要更严格的风险控制\n  • 可能出现更多假突破",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300575.SZ": {
+    "accuracy_score": 0.848773274188878,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 2,
+      "filter_ratio": 0.23529411764705888
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 84.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.93% (历史均值: 8.41%)\n  • ATR(7日): 8.70% | ATR(21日): 8.88%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.33% (考虑开盘价跳空)\n  • Parkinson: 0.34% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 9.56% (75分位数)\n  • 相对水平: 接近历史均值 (+6.2%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 1.74%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603388.SH": {
+    "accuracy_score": 0.9772588109119112,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 97.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 17.64% (历史均值: 18.11%)\n  • ATR(7日): 16.96% | ATR(21日): 18.79%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.11% (考虑开盘价跳空)\n  • Parkinson: 0.94% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 21.45% (75分位数)\n  • 相对水平: 接近历史均值 (-2.6%)\n📉 稳定性分析:\n  • 变异系数: 0.56 - 波动率中等变化\n  • 标准差: 10.20%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "600754.SH": {
+    "accuracy_score": 0.8811970638721721,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.17647058823529416
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 88.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.27% (历史均值: 9.00%)\n  • ATR(7日): 3.83% | ATR(21日): 6.35%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.34% (考虑开盘价跳空)\n  • Parkinson: 0.29% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 9.96% (75分位数)\n  • 相对水平: 显著低于历史均值 (-41.5%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.42%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300645.SZ": {
+    "accuracy_score": 0.8906177523532149,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 2,
+      "filter_ratio": 0.16666666666666663
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 89.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.88% (历史均值: 11.33%)\n  • ATR(7日): 12.56% | ATR(21日): 10.25%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.49% (考虑开盘价跳空)\n  • Parkinson: 0.61% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 13.39% (75分位数)\n  • 相对水平: 接近历史均值 (-4.0%)\n📉 稳定性分析:\n  • 变异系数: 0.25 - 波动率较为稳定\n  • 标准差: 2.82%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "605117.SH": {
+    "accuracy_score": 0.9199554472847283,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 9,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.11111111111111116
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 9 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 12.67% (历史均值: 13.73%)\n  • ATR(7日): 11.03% | ATR(21日): 13.92%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.17% (考虑开盘价跳空)\n  • Parkinson: 0.20% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 16.56% (75分位数)\n  • 相对水平: 接近历史均值 (-7.7%)\n📉 稳定性分析:\n  • 变异系数: 0.29 - 波动率较为稳定\n  • 标准差: 3.95%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "600533.SH": {
+    "accuracy_score": 0.9522218131475572,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 0,
+      "filter_ratio": 0.11764705882352944
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.00% (历史均值: 9.53%)\n  • ATR(7日): 7.94% | ATR(21日): 8.17%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.53% (考虑开盘价跳空)\n  • Parkinson: 0.46% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.84% (75分位数)\n  • 相对水平: 低于历史均值 (-16.0%)\n📉 稳定性分析:\n  • 变异系数: 0.18 - 波动率较为稳定\n  • 标准差: 1.71%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301519.SZ": {
+    "accuracy_score": 0.9090033178396223,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.16666666666666663
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.73% (历史均值: 11.87%)\n  • ATR(7日): 4.72% | ATR(21日): 6.76%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.35% (考虑开盘价跳空)\n  • Parkinson: 0.30% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.48% (75分位数)\n  • 相对水平: 显著低于历史均值 (-51.8%)\n📉 稳定性分析:\n  • 变异系数: 0.28 - 波动率较为稳定\n  • 标准差: 3.37%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002466.SZ": {
+    "accuracy_score": 0.9539841400151974,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.08333333333333337
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.62% (历史均值: 9.60%)\n  • ATR(7日): 6.29% | ATR(21日): 7.27%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.81% (考虑开盘价跳空)\n  • Parkinson: 0.70% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.49% (75分位数)\n  • 相对水平: 显著低于历史均值 (-31.0%)\n📉 稳定性分析:\n  • 变异系数: 0.15 - 波动率较为稳定\n  • 标准差: 1.44%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301487.SZ": {
+    "accuracy_score": 0.9521781853914183,
+    "total_periods": 9,
+    "filtered_pivot_highs_count": 3,
+    "filtered_pivot_lows_count": 4,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 2,
+      "filter_ratio": 0.2222222222222222
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 3 个高点，4 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 11.30% (历史均值: 16.51%)\n  • ATR(7日): 9.82% | ATR(21日): 12.82%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.66% (考虑开盘价跳空)\n  • Parkinson: 0.64% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 18.36% (75分位数)\n  • 相对水平: 显著低于历史均值 (-31.5%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 2.78%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002756.SZ": {
+    "accuracy_score": 0.7865414586704801,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 3,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 0,
+      "filter_ratio": 0.16666666666666663
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 3 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Good (F1: 78.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.86% (历史均值: 10.00%)\n  • ATR(7日): 6.47% | ATR(21日): 7.70%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.86% (考虑开盘价跳空)\n  • Parkinson: 0.73% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.14% (75分位数)\n  • 相对水平: 显著低于历史均值 (-31.4%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.63%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002731.SZ": {
+    "accuracy_score": 0.8714633878839717,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 9,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.11111111111111116
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 9 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 87.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.73% (历史均值: 9.68%)\n  • ATR(7日): 12.06% | ATR(21日): 9.73%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.50% (考虑开盘价跳空)\n  • Parkinson: 0.51% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: high_vol - 高波动率环境（谨慎操作）\n  • 动态阈值: 10.83% (75分位数)\n  • 相对水平: 高于历史均值 (+10.8%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 1.62%\n💡 交易含义:\n  • 高波动环境需要更严格的风险控制\n  • 可能出现更多假突破",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301378.SZ": {
+    "accuracy_score": 0.9161596225093241,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1428571428571429
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 11.00% (历史均值: 14.47%)\n  • ATR(7日): 11.02% | ATR(21日): 11.58%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.77% (考虑开盘价跳空)\n  • Parkinson: 0.88% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 16.99% (75分位数)\n  • 相对水平: 显著低于历史均值 (-24.0%)\n📉 稳定性分析:\n  • 变异系数: 0.27 - 波动率较为稳定\n  • 标准差: 3.93%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002410.SZ": {
+    "accuracy_score": 0.9465277925533959,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.19999999999999996
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.14% (历史均值: 12.62%)\n  • ATR(7日): 5.64% | ATR(21日): 8.08%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.25% (考虑开盘价跳空)\n  • Parkinson: 0.21% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.61% (75分位数)\n  • 相对水平: 显著低于历史均值 (-43.5%)\n📉 稳定性分析:\n  • 变异系数: 0.29 - 波动率较为稳定\n  • 标准差: 3.62%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300639.SZ": {
+    "accuracy_score": 0.8588700769541033,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.07692307692307687
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 85.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.25% (历史均值: 10.03%)\n  • ATR(7日): 6.33% | ATR(21日): 8.04%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.68% (考虑开盘价跳空)\n  • Parkinson: 0.58% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.46% (75分位数)\n  • 相对水平: 显著低于历史均值 (-27.7%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 2.32%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "001201.SZ": {
+    "accuracy_score": 0.8223662741924995,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 2,
+      "filter_ratio": 0.125
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 82.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.62% (历史均值: 8.55%)\n  • ATR(7日): 5.68% | ATR(21日): 6.17%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.49% (考虑开盘价跳空)\n  • Parkinson: 0.45% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.26% (75分位数)\n  • 相对水平: 显著低于历史均值 (-34.2%)\n📉 稳定性分析:\n  • 变异系数: 0.29 - 波动率较为稳定\n  • 标准差: 2.48%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002738.SZ": {
+    "accuracy_score": 0.8931518904322813,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.08333333333333337
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 89.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.10% (历史均值: 10.50%)\n  • ATR(7日): 7.03% | ATR(21日): 7.59%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.89% (考虑开盘价跳空)\n  • Parkinson: 0.78% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.84% (75分位数)\n  • 相对水平: 显著低于历史均值 (-32.3%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 2.20%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688516.SH": {
+    "accuracy_score": 0.9079332044737226,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.07692307692307687
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.89% (历史均值: 14.33%)\n  • ATR(7日): 5.98% | ATR(21日): 10.42%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.27% (考虑开盘价跳空)\n  • Parkinson: 0.31% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 16.12% (75分位数)\n  • 相对水平: 显著低于历史均值 (-44.9%)\n📉 稳定性分析:\n  • 变异系数: 0.27 - 波动率较为稳定\n  • 标准差: 3.93%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002728.SZ": {
+    "accuracy_score": 0.917450073850181,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.85% (历史均值: 12.78%)\n  • ATR(7日): 5.02% | ATR(21日): 6.95%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.45% (考虑开盘价跳空)\n  • Parkinson: 0.38% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.34% (75分位数)\n  • 相对水平: 显著低于历史均值 (-54.2%)\n📉 稳定性分析:\n  • 变异系数: 0.29 - 波动率较为稳定\n  • 标准差: 3.75%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688261.SH": {
+    "accuracy_score": 0.9452648203624369,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.24% (历史均值: 14.44%)\n  • ATR(7日): 5.34% | ATR(21日): 9.01%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.21% (考虑开盘价跳空)\n  • Parkinson: 0.18% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 16.80% (75分位数)\n  • 相对水平: 显著低于历史均值 (-49.9%)\n📉 稳定性分析:\n  • 变异系数: 0.24 - 波动率较为稳定\n  • 标准差: 3.42%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301246.SZ": {
+    "accuracy_score": 0.8726066026091316,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 87.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.84% (历史均值: 8.28%)\n  • ATR(7日): 7.00% | ATR(21日): 7.03%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.35% (考虑开盘价跳空)\n  • Parkinson: 0.31% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.11% (75分位数)\n  • 相对水平: 低于历史均值 (-17.5%)\n📉 稳定性分析:\n  • 变异系数: 0.25 - 波动率较为稳定\n  • 标准差: 2.03%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688170.SH": {
+    "accuracy_score": 0.9388066173475421,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 0,
+      "filter_ratio": 0.11111111111111116
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.40% (历史均值: 11.99%)\n  • ATR(7日): 9.39% | ATR(21日): 8.53%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.69% (考虑开盘价跳空)\n  • Parkinson: 0.63% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.22% (75分位数)\n  • 相对水平: 显著低于历史均值 (-29.9%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 2.32%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603778.SH": {
+    "accuracy_score": 0.9709750308262445,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 97.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.73% (历史均值: 12.30%)\n  • ATR(7日): 9.87% | ATR(21日): 7.38%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.91% (考虑开盘价跳空)\n  • Parkinson: 1.62% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.49% (75分位数)\n  • 相对水平: 显著低于历史均值 (-37.2%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 2.63%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603229.SH": {
+    "accuracy_score": 0.8544364000613602,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 85.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.50% (历史均值: 9.74%)\n  • ATR(7日): 5.85% | ATR(21日): 7.08%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.33% (考虑开盘价跳空)\n  • Parkinson: 0.28% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.00% (75分位数)\n  • 相对水平: 显著低于历史均值 (-33.2%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.57%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002932.SZ": {
+    "accuracy_score": 0.8397565995823212,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 84.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.31% (历史均值: 8.04%)\n  • ATR(7日): 6.79% | ATR(21日): 6.23%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.74% (考虑开盘价跳空)\n  • Parkinson: 0.73% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 8.49% (75分位数)\n  • 相对水平: 显著低于历史均值 (-21.5%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 1.50%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "001387.SZ": {
+    "accuracy_score": 0.9227821042933181,
+    "total_periods": 8,
+    "filtered_pivot_highs_count": 3,
+    "filtered_pivot_lows_count": 4,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.125
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 3 个高点，4 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.16% (历史均值: 13.85%)\n  • ATR(7日): 7.22% | ATR(21日): 8.23%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.51% (考虑开盘价跳空)\n  • Parkinson: 1.40% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 17.54% (75分位数)\n  • 相对水平: 显著低于历史均值 (-48.3%)\n📉 稳定性分析:\n  • 变异系数: 0.37 - 波动率中等变化\n  • 标准差: 5.17%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301515.SZ": {
+    "accuracy_score": 0.8918865129031691,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 89.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.85% (历史均值: 11.72%)\n  • ATR(7日): 5.65% | ATR(21日): 6.52%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.34% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.55% (75分位数)\n  • 相对水平: 显著低于历史均值 (-50.1%)\n📉 稳定性分析:\n  • 变异系数: 0.32 - 波动率中等变化\n  • 标准差: 3.73%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301268.SZ": {
+    "accuracy_score": 0.906929408655477,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.05882352941176472
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.45% (历史均值: 12.21%)\n  • ATR(7日): 7.07% | ATR(21日): 9.28%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.54% (考虑开盘价跳空)\n  • Parkinson: 0.46% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.42% (75分位数)\n  • 相对水平: 显著低于历史均值 (-30.8%)\n📉 稳定性分析:\n  • 变异系数: 0.12 - 波动率较为稳定\n  • 标准差: 1.44%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603982.SH": {
+    "accuracy_score": 0.9526437489067688,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 10,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，10 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.13% (历史均值: 10.72%)\n  • ATR(7日): 11.42% | ATR(21日): 9.77%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.45% (考虑开盘价跳空)\n  • Parkinson: 0.39% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 12.01% (75分位数)\n  • 相对水平: 接近历史均值 (-5.6%)\n📉 稳定性分析:\n  • 变异系数: 0.18 - 波动率较为稳定\n  • 标准差: 1.95%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "600132.SH": {
+    "accuracy_score": 0.8247107677476896,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 9,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 3,
+      "filter_ratio": 0.17647058823529416
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 9 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 82.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 4.28% (历史均值: 8.13%)\n  • ATR(7日): 3.08% | ATR(21日): 5.19%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.12% (考虑开盘价跳空)\n  • Parkinson: 0.11% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 9.08% (75分位数)\n  • 相对水平: 显著低于历史均值 (-47.3%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 1.37%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688005.SH": {
+    "accuracy_score": 0.9613878259875988,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.78% (历史均值: 11.48%)\n  • ATR(7日): 8.85% | ATR(21日): 12.02%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.62% (考虑开盘价跳空)\n  • Parkinson: 0.55% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 13.03% (75分位数)\n  • 相对水平: 接近历史均值 (-6.1%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 2.14%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "600831.SH": {
+    "accuracy_score": 0.9812949640287769,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 98.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.22% (历史均值: 9.88%)\n  • ATR(7日): 8.01% | ATR(21日): 7.15%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.37% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.99% (75分位数)\n  • 相对水平: 显著低于历史均值 (-26.9%)\n📉 稳定性分析:\n  • 变异系数: 0.37 - 波动率中等变化\n  • 标准差: 3.63%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603688.SH": {
+    "accuracy_score": 0.9579053415859434,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.57% (历史均值: 12.69%)\n  • ATR(7日): 10.35% | ATR(21日): 11.02%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.00% (考虑开盘价跳空)\n  • Parkinson: 0.55% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.46% (75分位数)\n  • 相对水平: 低于历史均值 (-16.7%)\n📉 稳定性分析:\n  • 变异系数: 0.34 - 波动率中等变化\n  • 标准差: 4.32%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301167.SZ": {
+    "accuracy_score": 0.8671636143613208,
+    "total_periods": 19,
+    "filtered_pivot_highs_count": 9,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 0,
+      "filter_ratio": 0.10526315789473684
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 9 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 86.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.30% (历史均值: 9.59%)\n  • ATR(7日): 6.13% | ATR(21日): 6.61%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.39% (考虑开盘价跳空)\n  • Parkinson: 0.34% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.76% (75分位数)\n  • 相对水平: 显著低于历史均值 (-34.3%)\n📉 稳定性分析:\n  • 变异系数: 0.26 - 波动率较为稳定\n  • 标准差: 2.47%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300396.SZ": {
+    "accuracy_score": 0.9238087687767482,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 9,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 9 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.51% (历史均值: 10.86%)\n  • ATR(7日): 5.17% | ATR(21日): 7.86%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.34% (考虑开盘价跳空)\n  • Parkinson: 0.30% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.20% (75分位数)\n  • 相对水平: 显著低于历史均值 (-40.0%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.79%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688503.SH": {
+    "accuracy_score": 0.9259604519278092,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 3,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.16666666666666663
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 3 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.21% (历史均值: 13.99%)\n  • ATR(7日): 9.08% | ATR(21日): 11.21%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.56% (考虑开盘价跳空)\n  • Parkinson: 0.48% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.54% (75分位数)\n  • 相对水平: 显著低于历史均值 (-27.1%)\n📉 稳定性分析:\n  • 变异系数: 0.24 - 波动率较为稳定\n  • 标准差: 3.31%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688069.SH": {
+    "accuracy_score": 0.8230943577335327,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.16666666666666663
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 82.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.12% (历史均值: 7.92%)\n  • ATR(7日): 6.53% | ATR(21日): 5.98%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.42% (考虑开盘价跳空)\n  • Parkinson: 0.38% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 9.12% (75分位数)\n  • 相对水平: 显著低于历史均值 (-22.7%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 1.51%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688238.SH": {
+    "accuracy_score": 0.9626797208511054,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.39% (历史均值: 12.84%)\n  • ATR(7日): 8.45% | ATR(21日): 8.63%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.70% (考虑开盘价跳空)\n  • Parkinson: 0.62% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.18% (75分位数)\n  • 相对水平: 显著低于历史均值 (-34.6%)\n📉 稳定性分析:\n  • 变异系数: 0.22 - 波动率较为稳定\n  • 标准差: 2.77%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603658.SH": {
+    "accuracy_score": 0.9160452966204061,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1333333333333333
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 4.41% (历史均值: 7.45%)\n  • ATR(7日): 3.31% | ATR(21日): 5.23%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.19% (考虑开盘价跳空)\n  • Parkinson: 0.17% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 8.19% (75分位数)\n  • 相对水平: 显著低于历史均值 (-40.9%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.20%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "600481.SH": {
+    "accuracy_score": 0.9397450871178065,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.35% (历史均值: 10.18%)\n  • ATR(7日): 9.10% | ATR(21日): 9.88%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.70% (考虑开盘价跳空)\n  • Parkinson: 0.69% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 11.68% (75分位数)\n  • 相对水平: 接近历史均值 (-8.1%)\n📉 稳定性分析:\n  • 变异系数: 0.18 - 波动率较为稳定\n  • 标准差: 1.88%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688612.SH": {
+    "accuracy_score": 0.9835004332929691,
+    "total_periods": 11,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 98.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.35% (历史均值: 11.84%)\n  • ATR(7日): 6.75% | ATR(21日): 7.93%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.48% (考虑开盘价跳空)\n  • Parkinson: 0.76% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.07% (75分位数)\n  • 相对水平: 显著低于历史均值 (-37.9%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 1.96%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002930.SZ": {
+    "accuracy_score": 0.7781397435256661,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 2,
+      "filter_ratio": 0.11111111111111116
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Good (F1: 77.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.73% (历史均值: 7.46%)\n  • ATR(7日): 7.84% | ATR(21日): 7.89%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.87% (考虑开盘价跳空)\n  • Parkinson: 0.76% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 8.72% (75分位数)\n  • 相对水平: 接近历史均值 (+3.6%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 1.55%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603162.SH": {
+    "accuracy_score": 0.8388147189862519,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1428571428571429
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 83.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.86% (历史均值: 9.91%)\n  • ATR(7日): 5.45% | ATR(21日): 6.56%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.24% (考虑开盘价跳空)\n  • Parkinson: 0.21% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.96% (75分位数)\n  • 相对水平: 显著低于历史均值 (-40.8%)\n📉 稳定性分析:\n  • 变异系数: 0.30 - 波动率较为稳定\n  • 标准差: 2.94%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603136.SH": {
+    "accuracy_score": 0.8691392029182056,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 86.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.30% (历史均值: 9.57%)\n  • ATR(7日): 7.53% | ATR(21日): 7.56%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.36% (考虑开盘价跳空)\n  • Parkinson: 0.38% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.51% (75分位数)\n  • 相对水平: 显著低于历史均值 (-23.7%)\n📉 稳定性分析:\n  • 变异系数: 0.26 - 波动率较为稳定\n  • 标准差: 2.47%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603363.SH": {
+    "accuracy_score": 0.9045302904745306,
+    "total_periods": 19,
+    "filtered_pivot_highs_count": 9,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.052631578947368474
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 9 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.90% (历史均值: 11.92%)\n  • ATR(7日): 6.30% | ATR(21日): 7.87%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.47% (考虑开盘价跳空)\n  • Parkinson: 0.41% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.70% (75分位数)\n  • 相对水平: 显著低于历史均值 (-42.1%)\n📉 稳定性分析:\n  • 变异系数: 0.38 - 波动率中等变化\n  • 标准差: 4.47%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301331.SZ": {
+    "accuracy_score": 0.918107225619448,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 0,
+      "filter_ratio": 0.11764705882352944
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.80% (历史均值: 10.05%)\n  • ATR(7日): 8.72% | ATR(21日): 7.57%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.65% (考虑开盘价跳空)\n  • Parkinson: 0.57% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.34% (75分位数)\n  • 相对水平: 显著低于历史均值 (-22.4%)\n📉 稳定性分析:\n  • 变异系数: 0.24 - 波动率较为稳定\n  • 标准差: 2.41%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603281.SH": {
+    "accuracy_score": 0.6898501378105585,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Good (F1: 69.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 4.50% (历史均值: 5.29%)\n  • ATR(7日): 4.42% | ATR(21日): 4.62%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.34% (考虑开盘价跳空)\n  • Parkinson: 0.30% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 5.67% (75分位数)\n  • 相对水平: 低于历史均值 (-14.9%)\n📉 稳定性分析:\n  • 变异系数: 0.15 - 波动率较为稳定\n  • 标准差: 0.79%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "⚠️  中等质量信号，建议结合其他指标"
+    }
+  },
+  "688301.SH": {
+    "accuracy_score": 0.9928821412665696,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.07692307692307687
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 99.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 13.13% (历史均值: 13.47%)\n  • ATR(7日): 12.04% | ATR(21日): 14.32%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.34% (考虑开盘价跳空)\n  • Parkinson: 0.29% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 15.08% (75分位数)\n  • 相对水平: 接近历史均值 (-2.5%)\n📉 稳定性分析:\n  • 变异系数: 0.27 - 波动率较为稳定\n  • 标准差: 3.67%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301102.SZ": {
+    "accuracy_score": 0.8952765353252313,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.06666666666666665
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 89.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.02% (历史均值: 12.65%)\n  • ATR(7日): 5.71% | ATR(21日): 8.23%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.38% (考虑开盘价跳空)\n  • Parkinson: 0.39% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.00% (75分位数)\n  • 相对水平: 显著低于历史均值 (-44.6%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 2.91%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301150.SZ": {
+    "accuracy_score": 0.9147251843834088,
+    "total_periods": 19,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 11,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，11 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 11.33% (历史均值: 11.16%)\n  • ATR(7日): 13.58% | ATR(21日): 10.85%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.82% (考虑开盘价跳空)\n  • Parkinson: 0.75% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 12.71% (75分位数)\n  • 相对水平: 接近历史均值 (+1.5%)\n📉 稳定性分析:\n  • 变异系数: 0.31 - 波动率中等变化\n  • 标准差: 3.45%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688032.SH": {
+    "accuracy_score": 0.868266639247157,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.08333333333333337
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 86.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.53% (历史均值: 16.96%)\n  • ATR(7日): 5.60% | ATR(21日): 10.19%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.33% (考虑开盘价跳空)\n  • Parkinson: 0.33% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 19.34% (75分位数)\n  • 相对水平: 显著低于历史均值 (-55.6%)\n📉 稳定性分析:\n  • 变异系数: 0.28 - 波动率较为稳定\n  • 标准差: 4.68%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688152.SH": {
+    "accuracy_score": 0.951048951048951,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 14.75% (历史均值: 17.69%)\n  • ATR(7日): 12.52% | ATR(21日): 16.03%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.36% (考虑开盘价跳空)\n  • Parkinson: 0.31% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 20.87% (75分位数)\n  • 相对水平: 低于历史均值 (-16.6%)\n📉 稳定性分析:\n  • 变异系数: 0.24 - 波动率较为稳定\n  • 标准差: 4.28%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "600110.SH": {
+    "accuracy_score": 0.8437235298267821,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 84.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 11.20% (历史均值: 8.11%)\n  • ATR(7日): 14.10% | ATR(21日): 9.88%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.71% (考虑开盘价跳空)\n  • Parkinson: 0.72% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: high_vol - 高波动率环境（谨慎操作）\n  • 动态阈值: 9.92% (75分位数)\n  • 相对水平: 显著高于历史均值 (+38.1%)\n📉 稳定性分析:\n  • 变异系数: 0.26 - 波动率较为稳定\n  • 标准差: 2.13%\n💡 交易含义:\n  • 高波动环境需要更严格的风险控制\n  • 可能出现更多假突破",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688398.SH": {
+    "accuracy_score": 0.9353620210473744,
+    "total_periods": 20,
+    "filtered_pivot_highs_count": 9,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 2,
+      "filter_ratio": 0.19999999999999996
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 9 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.94% (历史均值: 10.77%)\n  • ATR(7日): 10.67% | ATR(21日): 9.80%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.49% (考虑开盘价跳空)\n  • Parkinson: 0.42% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 11.71% (75分位数)\n  • 相对水平: 接近历史均值 (-7.7%)\n📉 稳定性分析:\n  • 变异系数: 0.26 - 波动率较为稳定\n  • 标准差: 2.78%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300763.SZ": {
+    "accuracy_score": 0.9527252763299608,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 2,
+      "filter_ratio": 0.2222222222222222
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.31% (历史均值: 12.15%)\n  • ATR(7日): 7.66% | ATR(21日): 9.05%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.26% (考虑开盘价跳空)\n  • Parkinson: 0.42% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.25% (75分位数)\n  • 相对水平: 显著低于历史均值 (-31.7%)\n📉 稳定性分析:\n  • 变异系数: 0.12 - 波动率较为稳定\n  • 标准差: 1.51%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002218.SZ": {
+    "accuracy_score": 0.8279608349268368,
+    "total_periods": 19,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 10,
+    "filter_effectiveness": {
+      "highs_filtered": 3,
+      "lows_filtered": 0,
+      "filter_ratio": 0.1578947368421053
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，10 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 82.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.97% (历史均值: 7.89%)\n  • ATR(7日): 11.24% | ATR(21日): 8.39%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.54% (考虑开盘价跳空)\n  • Parkinson: 1.69% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: high_vol - 高波动率环境（谨慎操作）\n  • 动态阈值: 9.02% (75分位数)\n  • 相对水平: 高于历史均值 (+13.7%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 1.80%\n💡 交易含义:\n  • 高波动环境需要更严格的风险控制\n  • 可能出现更多假突破",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300208.SZ": {
+    "accuracy_score": 0.8851611674378739,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 88.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 74.50% (历史均值: 19.44%)\n  • ATR(7日): 51.58% | ATR(21日): 91.37%\n📈 高级波动率估计器:\n  • Garman-Klass: 1.35% (考虑开盘价跳空)\n  • Parkinson: 1.27% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: high_vol - 高波动率环境（谨慎操作）\n  • 动态阈值: 25.26% (75分位数)\n  • 相对水平: 显著高于历史均值 (+283.3%)\n📉 稳定性分析:\n  • 变异系数: 0.80 - 波动率变化较大\n  • 标准差: 15.53%\n💡 交易含义:\n  • 高波动环境需要更严格的风险控制\n  • 可能出现更多假突破",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002129.SZ": {
+    "accuracy_score": 0.8958716630266181,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 89.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.70% (历史均值: 11.33%)\n  • ATR(7日): 5.64% | ATR(21日): 8.05%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.51% (考虑开盘价跳空)\n  • Parkinson: 0.46% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.86% (75分位数)\n  • 相对水平: 显著低于历史均值 (-40.9%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 2.16%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688133.SH": {
+    "accuracy_score": 0.9163884099135375,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1333333333333333
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.52% (历史均值: 14.13%)\n  • ATR(7日): 7.48% | ATR(21日): 9.51%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.51% (考虑开盘价跳空)\n  • Parkinson: 0.46% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 16.46% (75分位数)\n  • 相对水平: 显著低于历史均值 (-39.7%)\n📉 稳定性分析:\n  • 变异系数: 0.24 - 波动率较为稳定\n  • 标准差: 3.45%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688022.SH": {
+    "accuracy_score": 0.9821340459069533,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1333333333333333
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 98.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.85% (历史均值: 13.70%)\n  • ATR(7日): 8.54% | ATR(21日): 10.62%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.64% (考虑开盘价跳空)\n  • Parkinson: 0.55% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.31% (75分位数)\n  • 相对水平: 显著低于历史均值 (-28.1%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 2.57%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688141.SH": {
+    "accuracy_score": 0.9631022664860565,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.05555555555555558
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.64% (历史均值: 15.19%)\n  • ATR(7日): 8.66% | ATR(21日): 11.31%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.33% (考虑开盘价跳空)\n  • Parkinson: 0.28% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 17.00% (75分位数)\n  • 相对水平: 显著低于历史均值 (-29.9%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 3.12%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "001270.SZ": {
+    "accuracy_score": 0.9557149766488369,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.05882352941176472
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.50% (历史均值: 13.52%)\n  • ATR(7日): 7.43% | ATR(21日): 9.49%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.32% (考虑开盘价跳空)\n  • Parkinson: 0.33% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.10% (75分位数)\n  • 相对水平: 显著低于历史均值 (-37.2%)\n📉 稳定性分析:\n  • 变异系数: 0.18 - 波动率较为稳定\n  • 标准差: 2.47%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002791.SZ": {
+    "accuracy_score": 0.8607956010657418,
+    "total_periods": 10,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 86.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.12% (历史均值: 11.52%)\n  • ATR(7日): 5.50% | ATR(21日): 8.57%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.43% (考虑开盘价跳空)\n  • Parkinson: 0.43% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.33% (75分位数)\n  • 相对水平: 显著低于历史均值 (-38.2%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.83%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301589.SZ": {
+    "accuracy_score": 0.7846180214558508,
+    "total_periods": 6,
+    "filtered_pivot_highs_count": 2,
+    "filtered_pivot_lows_count": 4,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 2 个高点，4 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Good (F1: 78.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.11% (历史均值: 14.09%)\n  • ATR(7日): 4.37% | ATR(21日): 8.27%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.29% (考虑开盘价跳空)\n  • Parkinson: 0.24% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 18.13% (75分位数)\n  • 相对水平: 显著低于历史均值 (-56.7%)\n📉 稳定性分析:\n  • 变异系数: 0.38 - 波动率中等变化\n  • 标准差: 5.38%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301448.SZ": {
+    "accuracy_score": 0.9368696944696379,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.04% (历史均值: 13.05%)\n  • ATR(7日): 8.02% | ATR(21日): 8.28%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.35% (考虑开盘价跳空)\n  • Parkinson: 0.36% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.65% (75分位数)\n  • 相对水平: 显著低于历史均值 (-38.4%)\n📉 稳定性分析:\n  • 变异系数: 0.27 - 波动率较为稳定\n  • 标准差: 3.48%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002487.SZ": {
+    "accuracy_score": 0.9475421077635943,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.05% (历史均值: 9.56%)\n  • ATR(7日): 6.38% | ATR(21日): 5.97%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.33% (考虑开盘价跳空)\n  • Parkinson: 0.30% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.79% (75分位数)\n  • 相对水平: 显著低于历史均值 (-36.8%)\n📉 稳定性分析:\n  • 变异系数: 0.18 - 波动率较为稳定\n  • 标准差: 1.67%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688185.SH": {
+    "accuracy_score": 0.881800169280978,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 88.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.33% (历史均值: 10.63%)\n  • ATR(7日): 5.24% | ATR(21日): 6.95%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.16% (考虑开盘价跳空)\n  • Parkinson: 0.15% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.92% (75分位数)\n  • 相对水平: 显著低于历史均值 (-40.4%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 1.80%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002188.SZ": {
+    "accuracy_score": 0.8881634737938844,
+    "total_periods": 19,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 2,
+      "filter_ratio": 0.1578947368421053
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 88.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.20% (历史均值: 10.83%)\n  • ATR(7日): 6.71% | ATR(21日): 7.61%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.60% (考虑开盘价跳空)\n  • Parkinson: 0.54% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.73% (75分位数)\n  • 相对水平: 显著低于历史均值 (-33.5%)\n📉 稳定性分析:\n  • 变异系数: 0.24 - 波动率较为稳定\n  • 标准差: 2.60%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300332.SZ": {
+    "accuracy_score": 0.7509627692256134,
+    "total_periods": 11,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Good (F1: 75.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.35% (历史均值: 7.95%)\n  • ATR(7日): 7.02% | ATR(21日): 7.81%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.44% (考虑开盘价跳空)\n  • Parkinson: 0.41% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 9.28% (75分位数)\n  • 相对水平: 接近历史均值 (-7.5%)\n📉 稳定性分析:\n  • 变异系数: 0.19 - 波动率较为稳定\n  • 标准差: 1.54%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301089.SZ": {
+    "accuracy_score": 0.9376951711096183,
+    "total_periods": 20,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 2,
+      "filter_ratio": 0.19999999999999996
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.69% (历史均值: 13.44%)\n  • ATR(7日): 11.22% | ATR(21日): 10.74%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.48% (考虑开盘价跳空)\n  • Parkinson: 0.51% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 15.26% (75分位数)\n  • 相对水平: 显著低于历史均值 (-20.5%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 2.14%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688050.SH": {
+    "accuracy_score": 0.9217275680642266,
+    "total_periods": 19,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1578947368421053
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.17% (历史均值: 10.83%)\n  • ATR(7日): 6.62% | ATR(21日): 10.87%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.24% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 11.96% (75分位数)\n  • 相对水平: 低于历史均值 (-15.4%)\n📉 稳定性分析:\n  • 变异系数: 0.29 - 波动率较为稳定\n  • 标准差: 3.19%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "001311.SZ": {
+    "accuracy_score": 0.9691582394644978,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1428571428571429
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 96.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.01% (历史均值: 11.36%)\n  • ATR(7日): 7.37% | ATR(21日): 10.11%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.34% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.96% (75分位数)\n  • 相对水平: 显著低于历史均值 (-20.7%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 2.34%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300795.SZ": {
+    "accuracy_score": 0.9326023195338021,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 12.81% (历史均值: 14.04%)\n  • ATR(7日): 10.52% | ATR(21日): 14.27%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.41% (考虑开盘价跳空)\n  • Parkinson: 0.35% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 15.99% (75分位数)\n  • 相对水平: 接近历史均值 (-8.8%)\n📉 稳定性分析:\n  • 变异系数: 0.25 - 波动率较为稳定\n  • 标准差: 3.50%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688121.SH": {
+    "accuracy_score": 0.9523806680711613,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.06666666666666665
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 95.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.75% (历史均值: 11.41%)\n  • ATR(7日): 6.26% | ATR(21日): 7.51%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.45% (考虑开盘价跳空)\n  • Parkinson: 0.38% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.14% (75分位数)\n  • 相对水平: 显著低于历史均值 (-40.8%)\n📉 稳定性分析:\n  • 变异系数: 0.20 - 波动率较为稳定\n  • 标准差: 2.24%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688663.SH": {
+    "accuracy_score": 0.9131967916770655,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.03% (历史均值: 10.01%)\n  • ATR(7日): 7.40% | ATR(21日): 6.97%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.73% (考虑开盘价跳空)\n  • Parkinson: 0.62% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.08% (75分位数)\n  • 相对水平: 显著低于历史均值 (-29.8%)\n📉 稳定性分析:\n  • 变异系数: 0.14 - 波动率较为稳定\n  • 标准差: 1.45%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301391.SZ": {
+    "accuracy_score": 0.9428029481280773,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.69% (历史均值: 12.65%)\n  • ATR(7日): 7.24% | ATR(21日): 8.69%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.68% (考虑开盘价跳空)\n  • Parkinson: 0.78% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.54% (75分位数)\n  • 相对水平: 显著低于历史均值 (-39.2%)\n📉 稳定性分析:\n  • 变异系数: 0.32 - 波动率中等变化\n  • 标准差: 4.01%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301230.SZ": {
+    "accuracy_score": 0.8988965401970233,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 3,
+      "lows_filtered": 1,
+      "filter_ratio": 0.2222222222222222
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 89.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.56% (历史均值: 15.20%)\n  • ATR(7日): 9.19% | ATR(21日): 9.81%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.73% (考虑开盘价跳空)\n  • Parkinson: 1.02% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 17.22% (75分位数)\n  • 相对水平: 显著低于历史均值 (-37.1%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 3.15%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603069.SH": {
+    "accuracy_score": 0.8472807790004223,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 84.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.43% (历史均值: 10.01%)\n  • ATR(7日): 8.33% | ATR(21日): 8.51%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.77% (考虑开盘价跳空)\n  • Parkinson: 0.68% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.75% (75分位数)\n  • 相对水平: 低于历史均值 (-15.8%)\n📉 稳定性分析:\n  • 变异系数: 0.10 - 波动率较为稳定\n  • 标准差: 1.02%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300624.SZ": {
+    "accuracy_score": 0.9723320158102766,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1333333333333333
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 97.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.71% (历史均值: 15.38%)\n  • ATR(7日): 8.52% | ATR(21日): 10.76%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.96% (考虑开盘价跳空)\n  • Parkinson: 0.85% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 17.46% (75分位数)\n  • 相对水平: 显著低于历史均值 (-36.8%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 3.51%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603517.SH": {
+    "accuracy_score": 0.9068701168904747,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 0,
+      "filter_ratio": 0.11764705882352944
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.53% (历史均值: 10.19%)\n  • ATR(7日): 5.63% | ATR(21日): 8.68%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.25% (考虑开盘价跳空)\n  • Parkinson: 0.26% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.96% (75分位数)\n  • 相对水平: 显著低于历史均值 (-26.1%)\n📉 稳定性分析:\n  • 变异系数: 0.14 - 波动率较为稳定\n  • 标准差: 1.40%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "000819.SZ": {
+    "accuracy_score": 0.8786734056472006,
+    "total_periods": 17,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 11,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，11 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 87.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.19% (历史均值: 9.04%)\n  • ATR(7日): 7.90% | ATR(21日): 7.20%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.82% (考虑开盘价跳空)\n  • Parkinson: 0.73% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.01% (75分位数)\n  • 相对水平: 显著低于历史均值 (-20.5%)\n📉 稳定性分析:\n  • 变异系数: 0.15 - 波动率较为稳定\n  • 标准差: 1.37%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300291.SZ": {
+    "accuracy_score": 0.9327444887444991,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 93.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.12% (历史均值: 12.99%)\n  • ATR(7日): 9.96% | ATR(21日): 10.42%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.43% (考虑开盘价跳空)\n  • Parkinson: 0.45% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.90% (75分位数)\n  • 相对水平: 显著低于历史均值 (-22.1%)\n📉 稳定性分析:\n  • 变异系数: 0.23 - 波动率较为稳定\n  • 标准差: 3.01%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "603456.SH": {
+    "accuracy_score": 0.9124887481460584,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 91.2%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.09% (历史均值: 9.36%)\n  • ATR(7日): 6.26% | ATR(21日): 6.35%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.59% (考虑开盘价跳空)\n  • Parkinson: 0.50% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.29% (75分位数)\n  • 相对水平: 显著低于历史均值 (-35.0%)\n📉 稳定性分析:\n  • 变异系数: 0.18 - 波动率较为稳定\n  • 标准差: 1.69%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688377.SH": {
+    "accuracy_score": 0.9268249702630071,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1428571428571429
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.01% (历史均值: 11.89%)\n  • ATR(7日): 7.48% | ATR(21日): 8.12%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.52% (考虑开盘价跳空)\n  • Parkinson: 0.44% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.02% (75分位数)\n  • 相对水平: 显著低于历史均值 (-32.7%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.92%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300601.SZ": {
+    "accuracy_score": 0.9030968101925044,
+    "total_periods": 12,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.71% (历史均值: 8.80%)\n  • ATR(7日): 6.44% | ATR(21日): 7.28%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.29% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 9.76% (75分位数)\n  • 相对水平: 显著低于历史均值 (-23.8%)\n📉 稳定性分析:\n  • 变异系数: 0.14 - 波动率较为稳定\n  • 标准差: 1.22%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301618.SZ": {
+    "accuracy_score": 0.8735965229989135,
+    "total_periods": 5,
+    "filtered_pivot_highs_count": 2,
+    "filtered_pivot_lows_count": 2,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.19999999999999996
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 2 个高点，2 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 87.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 13.34% (历史均值: 13.71%)\n  • ATR(7日): 10.56% | ATR(21日): 14.80%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.39% (考虑开盘价跳空)\n  • Parkinson: 0.36% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 15.56% (75分位数)\n  • 相对水平: 接近历史均值 (-2.7%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 2.14%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "⚠️  中等质量信号，建议结合其他指标"
+    }
+  },
+  "603086.SH": {
+    "accuracy_score": 0.8792022079155534,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0714285714285714
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 87.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 11.17% (历史均值: 9.22%)\n  • ATR(7日): 12.82% | ATR(21日): 9.78%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.57% (考虑开盘价跳空)\n  • Parkinson: 0.55% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: high_vol - 高波动率环境（谨慎操作）\n  • 动态阈值: 10.94% (75分位数)\n  • 相对水平: 显著高于历史均值 (+21.2%)\n📉 稳定性分析:\n  • 变异系数: 0.20 - 波动率较为稳定\n  • 标准差: 1.89%\n💡 交易含义:\n  • 高波动环境需要更严格的风险控制\n  • 可能出现更多假突破",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002567.SZ": {
+    "accuracy_score": 0.8812861416864123,
+    "total_periods": 19,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.1578947368421053
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 88.1%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 4.21% (历史均值: 7.95%)\n  • ATR(7日): 3.32% | ATR(21日): 5.14%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.24% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 9.23% (75分位数)\n  • 相对水平: 显著低于历史均值 (-47.0%)\n📉 稳定性分析:\n  • 变异系数: 0.22 - 波动率较为稳定\n  • 标准差: 1.74%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301207.SZ": {
+    "accuracy_score": 0.893033617169267,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.05555555555555558
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 89.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.57% (历史均值: 9.78%)\n  • ATR(7日): 4.34% | ATR(21日): 6.65%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.29% (考虑开盘价跳空)\n  • Parkinson: 0.24% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.79% (75分位数)\n  • 相对水平: 显著低于历史均值 (-43.0%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.59%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "600763.SH": {
+    "accuracy_score": 0.8663154206918725,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 86.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.59% (历史均值: 9.65%)\n  • ATR(7日): 4.28% | ATR(21日): 6.85%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.19% (考虑开盘价跳空)\n  • Parkinson: 0.20% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.54% (75分位数)\n  • 相对水平: 显著低于历史均值 (-42.0%)\n📉 稳定性分析:\n  • 变异系数: 0.20 - 波动率较为稳定\n  • 标准差: 1.91%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301292.SZ": {
+    "accuracy_score": 0.8372093023255813,
+    "total_periods": 11,
+    "filtered_pivot_highs_count": 3,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.09090909090909094
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 3 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 83.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.18% (历史均值: 11.48%)\n  • ATR(7日): 10.34% | ATR(21日): 8.79%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.41% (考虑开盘价跳空)\n  • Parkinson: 0.40% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 13.08% (75分位数)\n  • 相对水平: 显著低于历史均值 (-20.0%)\n📉 稳定性分析:\n  • 变异系数: 0.18 - 波动率较为稳定\n  • 标准差: 2.03%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "600732.SH": {
+    "accuracy_score": 0.9460926126938504,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0625
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.6%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.75% (历史均值: 13.65%)\n  • ATR(7日): 8.37% | ATR(21日): 9.15%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.54% (考虑开盘价跳空)\n  • Parkinson: 0.47% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.92% (75分位数)\n  • 相对水平: 显著低于历史均值 (-35.9%)\n📉 稳定性分析:\n  • 变异系数: 0.13 - 波动率较为稳定\n  • 标准差: 1.84%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300751.SZ": {
+    "accuracy_score": 0.9783194821019928,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.07692307692307687
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 97.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 9.43% (历史均值: 13.59%)\n  • ATR(7日): 7.42% | ATR(21日): 11.16%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.42% (考虑开盘价跳空)\n  • Parkinson: 0.43% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.02% (75分位数)\n  • 相对水平: 显著低于历史均值 (-30.6%)\n📉 稳定性分析:\n  • 变异系数: 0.24 - 波动率较为稳定\n  • 标准差: 3.24%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002258.SZ": {
+    "accuracy_score": 0.8854762074953041,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 88.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.44% (历史均值: 6.41%)\n  • ATR(7日): 6.73% | ATR(21日): 6.13%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.38% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 7.31% (75分位数)\n  • 相对水平: 接近历史均值 (+0.5%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.03%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "601065.SH": {
+    "accuracy_score": 0.7728291009140873,
+    "total_periods": 11,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 1,
+      "filter_ratio": 0.09090909090909094
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Good (F1: 77.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 2.60% (历史均值: 6.15%)\n  • ATR(7日): 2.03% | ATR(21日): 3.21%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.14% (考虑开盘价跳空)\n  • Parkinson: 0.13% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 7.47% (75分位数)\n  • 相对水平: 显著低于历史均值 (-57.8%)\n📉 稳定性分析:\n  • 变异系数: 0.31 - 波动率中等变化\n  • 标准差: 1.90%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300034.SZ": {
+    "accuracy_score": 0.8227545011047273,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 8,
+    "filter_effectiveness": {
+      "highs_filtered": 3,
+      "lows_filtered": 0,
+      "filter_ratio": 0.1875
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，8 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 82.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 5.86% (历史均值: 9.70%)\n  • ATR(7日): 4.91% | ATR(21日): 6.53%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.23% (考虑开盘价跳空)\n  • Parkinson: 0.25% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.62% (75分位数)\n  • 相对水平: 显著低于历史均值 (-39.6%)\n📉 稳定性分析:\n  • 变异系数: 0.21 - 波动率较为稳定\n  • 标准差: 1.99%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "000736.SZ": {
+    "accuracy_score": 0.9485519555840709,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 8,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 1,
+      "filter_ratio": 0.125
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 8 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 12.36% (历史均值: 13.47%)\n  • ATR(7日): 9.31% | ATR(21日): 14.77%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.62% (考虑开盘价跳空)\n  • Parkinson: 0.61% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 14.52% (75分位数)\n  • 相对水平: 接近历史均值 (-8.2%)\n📉 稳定性分析:\n  • 变异系数: 0.15 - 波动率较为稳定\n  • 标准差: 2.05%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "688671.SH": {
+    "accuracy_score": 0.9271696467509812,
+    "total_periods": 11,
+    "filtered_pivot_highs_count": 3,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 0,
+      "filter_ratio": 0.18181818181818177
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 3 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.94% (历史均值: 13.45%)\n  • ATR(7日): 6.01% | ATR(21日): 7.94%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.38% (考虑开盘价跳空)\n  • Parkinson: 0.34% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 16.37% (75分位数)\n  • 相对水平: 显著低于历史均值 (-48.4%)\n📉 稳定性分析:\n  • 变异系数: 0.26 - 波动率较为稳定\n  • 标准差: 3.55%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "001279.SZ": {
+    "accuracy_score": 0.900119189511323,
+    "total_periods": 4,
+    "filtered_pivot_highs_count": 1,
+    "filtered_pivot_lows_count": 2,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.25
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 1 个高点，2 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 8.02% (历史均值: 9.07%)\n  • ATR(7日): 6.98% | ATR(21日): 8.51%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.36% (考虑开盘价跳空)\n  • Parkinson: 0.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 9.35% (75分位数)\n  • 相对水平: 低于历史均值 (-11.5%)\n📉 稳定性分析:\n  • 变异系数: 0.10 - 波动率较为稳定\n  • 标准差: 0.91%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "⚠️  中等质量信号，建议结合其他指标"
+    }
+  },
+  "002645.SZ": {
+    "accuracy_score": 0.9769258075967341,
+    "total_periods": 11,
+    "filtered_pivot_highs_count": 6,
+    "filtered_pivot_lows_count": 5,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 6 个高点，5 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 97.7%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.63% (历史均值: 10.27%)\n  • ATR(7日): 8.63% | ATR(21日): 7.27%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.00% (考虑开盘价跳空)\n  • Parkinson: 1.32% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 11.38% (75分位数)\n  • 相对水平: 显著低于历史均值 (-25.8%)\n📉 稳定性分析:\n  • 变异系数: 0.25 - 波动率较为稳定\n  • 标准差: 2.54%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "301327.SZ": {
+    "accuracy_score": 0.8997984717827255,
+    "total_periods": 16,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 9,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，9 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 90.0%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 10.38% (历史均值: 11.97%)\n  • ATR(7日): 8.87% | ATR(21日): 11.07%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.32% (考虑开盘价跳空)\n  • Parkinson: 0.31% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: medium_vol - 中等波动率环境（平衡市场）\n  • 动态阈值: 14.26% (75分位数)\n  • 相对水平: 低于历史均值 (-13.3%)\n📉 稳定性分析:\n  • 变异系数: 0.29 - 波动率较为稳定\n  • 标准差: 3.47%\n💡 交易含义:\n  • 中等波动环境适合平衡型策略\n  • 建议结合多重确认信号",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300122.SZ": {
+    "accuracy_score": 0.943058692475667,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 5,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.07692307692307687
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 5 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 94.3%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.92% (历史均值: 10.71%)\n  • ATR(7日): 6.46% | ATR(21日): 9.44%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.28% (考虑开盘价跳空)\n  • Parkinson: 0.28% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.11% (75分位数)\n  • 相对水平: 显著低于历史均值 (-26.1%)\n📉 稳定性分析:\n  • 变异系数: 0.17 - 波动率较为稳定\n  • 标准差: 1.86%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300957.SZ": {
+    "accuracy_score": 0.924782649544041,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.5%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.92% (历史均值: 9.96%)\n  • ATR(7日): 5.97% | ATR(21日): 7.72%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.31% (考虑开盘价跳空)\n  • Parkinson: 0.26% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 10.81% (75分位数)\n  • 相对水平: 显著低于历史均值 (-30.5%)\n📉 稳定性分析:\n  • 变异系数: 0.13 - 波动率较为稳定\n  • 标准差: 1.25%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "002812.SZ": {
+    "accuracy_score": 0.9289777078171055,
+    "total_periods": 14,
+    "filtered_pivot_highs_count": 4,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 2,
+      "lows_filtered": 1,
+      "filter_ratio": 0.2142857142857143
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 4 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 92.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 7.40% (历史均值: 11.25%)\n  • ATR(7日): 6.54% | ATR(21日): 8.47%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.54% (考虑开盘价跳空)\n  • Parkinson: 0.47% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 12.42% (75分位数)\n  • 相对水平: 显著低于历史均值 (-34.2%)\n📉 稳定性分析:\n  • 变异系数: 0.15 - 波动率较为稳定\n  • 标准差: 1.74%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300636.SZ": {
+    "accuracy_score": 0.849222022171512,
+    "total_periods": 15,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 7,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.06666666666666665
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，7 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 84.9%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.00% (历史均值: 8.37%)\n  • ATR(7日): 5.39% | ATR(21日): 6.61%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.32% (考虑开盘价跳空)\n  • Parkinson: 0.27% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 9.72% (75分位数)\n  • 相对水平: 显著低于历史均值 (-28.3%)\n📉 稳定性分析:\n  • 变异系数: 0.20 - 波动率较为稳定\n  • 标准差: 1.69%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300239.SZ": {
+    "accuracy_score": 0.8235818718354028,
+    "total_periods": 18,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 10,
+    "filter_effectiveness": {
+      "highs_filtered": 1,
+      "lows_filtered": 0,
+      "filter_ratio": 0.05555555555555558
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，10 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Excellent (F1: 82.4%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 6.07% (历史均值: 7.40%)\n  • ATR(7日): 5.35% | ATR(21日): 6.47%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.33% (考虑开盘价跳空)\n  • Parkinson: 0.29% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 8.91% (75分位数)\n  • 相对水平: 低于历史均值 (-18.0%)\n📉 稳定性分析:\n  • 变异系数: 0.24 - 波动率较为稳定\n  • 标准差: 1.79%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  },
+  "300146.SZ": {
+    "accuracy_score": 0.7578718992521913,
+    "total_periods": 13,
+    "filtered_pivot_highs_count": 7,
+    "filtered_pivot_lows_count": 6,
+    "filter_effectiveness": {
+      "highs_filtered": 0,
+      "lows_filtered": 0,
+      "filter_ratio": 0.0
+    },
+    "analysis_description": {
+      "summary": "🎯 企业级检测完成：识别 7 个高点，6 个低点",
+      "method_info": "🚀 使用方法：statistical_significance | 敏感度：conservative",
+      "quality_assessment": "📊 质量评级：Good (F1: 75.8%)",
+      "volatility_analysis": "📊 主要波动率指标:\n  • ATR(14日): 4.68% (历史均值: 6.58%)\n  • ATR(7日): 3.79% | ATR(21日): 5.37%\n📈 高级波动率估计器:\n  • Garman-Klass: 0.28% (考虑开盘价跳空)\n  • Parkinson: 0.25% (基于高低价)\n🎯 波动率环境:\n  • 当前制度: low_vol - 低波动率环境（适合趋势跟踪）\n  • 动态阈值: 7.12% (75分位数)\n  • 相对水平: 显著低于历史均值 (-28.9%)\n📉 稳定性分析:\n  • 变异系数: 0.16 - 波动率较为稳定\n  • 标准差: 1.07%\n💡 交易含义:\n  • 低波动环境有利于趋势跟踪策略\n  • 转折点信号更加可靠",
+      "recommendation": "💡 高质量信号，建议重点关注"
+    }
+  }
+}

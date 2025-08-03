@@ -263,6 +263,7 @@
         .module-card:nth-child(3) { animation-delay: 0.3s; }
         .module-card:nth-child(4) { animation-delay: 0.4s; }
         .module-card:nth-child(5) { animation-delay: 0.5s; }
+        .module-card:nth-child(6) { animation-delay: 0.6s; }
 
         @media (max-width: 768px) {
             .header h1 {
@@ -312,7 +313,7 @@
     <div class="container">
         <header class="header">
             <h1>📈 A股技术分析平台</h1>
-            <p>专业级股票技术分析工具集 - 基于TA-Lib与机器学习的智能分析系统</p>
+            <p>专业级股票技术分析工具集 - 基于TA-Lib与AI算法的智能分析系统</p>
         </header>
 
         <section class="stats-overview">
@@ -328,7 +329,7 @@
             </div>
             <div class="stat-card">
                 <div class="stat-icon">⚡</div>
-                <div class="stat-number">5</div>
+                <div class="stat-number">7</div>
                 <div class="stat-label">分析模块</div>
             </div>
             <div class="stat-card">
@@ -457,6 +458,32 @@
                     <a href="../main_similarity.py" class="btn btn-secondary">🧠 算法源码</a>
                 </div>
                 <div class="update-time">最后更新: 2024-01-10</div>
+            </div>
+
+            <div class="module-card">
+                <div class="module-header">
+                    <div class="module-icon">🎯</div>
+                    <div class="module-title">高低点分析</div>
+                </div>
+                <div class="module-description">
+                    基于波动率过滤的智能高低点识别系统，从大弧底股票中精准识别关键转折点，达到资深交易员级别的识别精度。
+                </div>
+                <ul class="module-features">
+                    <li>大弧底股票专项分析</li>
+                    <li>波动率智能过滤算法</li>
+                    <li>多维度质量评分</li>
+                    <li>高低点可视化标记</li>
+                    <li>准确度实时评估</li>
+                    <li>现代化响应式界面</li>
+                </ul>
+                <div class="module-actions">
+                    <a href="pivot/index.html" class="btn btn-primary">
+                        <span class="status-indicator status-new"></span>
+                        查看高低点分析
+                    </a>
+                    <a href="../main_pivot.py" class="btn btn-secondary">🎯 分析源码</a>
+                </div>
+                <div class="update-time">最后更新: 2024-01-20</div>
             </div>
 
             <div class="module-card">
