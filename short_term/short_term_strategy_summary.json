@@ -1,0 +1,320 @@
+{
+  "strategy_type": "short_term",
+  "strategy_name": "短期波段策略标的池",
+  "generated_time": "2025-08-24 23:39:28",
+  "total_stocks": 39,
+  "stocks": [
+    {
+      "code": "688585.SH",
+      "name": "上纬新材",
+      "volatility": 0.9462647564800866,
+      "sharpe": 112.1768998414537,
+      "market_cap_category": "中盘股",
+      "market_value": 338.01712806399996
+    },
+    {
+      "code": "688108.SH",
+      "name": "赛诺医疗",
+      "volatility": 0.5427619529838362,
+      "sharpe": 12.451996291592517,
+      "market_cap_category": "中盘股",
+      "market_value": 142.3716256
+    },
+    {
+      "code": "688110.SH",
+      "name": "东芯股份",
+      "volatility": 0.6431615448932557,
+      "sharpe": 11.979354448538661,
+      "market_cap_category": "中盘股",
+      "market_value": 380.86549158959997
+    },
+    {
+      "code": "300436.SZ",
+      "name": "广生堂",
+      "volatility": 0.5330978198688614,
+      "sharpe": 9.776833925117883,
+      "market_cap_category": "中盘股",
+      "market_value": 216.443853
+    },
+    {
+      "code": "300486.SZ",
+      "name": "东杰智能",
+      "volatility": 0.6025216539198571,
+      "sharpe": 6.193401229429219,
+      "market_cap_category": "中盘股",
+      "market_value": 103.65924460220002
+    },
+    {
+      "code": "688660.SH",
+      "name": "电气风电",
+      "volatility": 0.6245819947858547,
+      "sharpe": 5.8911341322759,
+      "market_cap_category": "中盘股",
+      "market_value": 235.3333451
+    },
+    {
+      "code": "300885.SZ",
+      "name": "海昌新材",
+      "volatility": 0.5339141765938006,
+      "sharpe": 5.674674220355831,
+      "market_cap_category": "小盘股",
+      "market_value": 66.85209492
+    },
+    {
+      "code": "836942.BJ",
+      "name": "恒立钻具",
+      "volatility": 0.9370321718149645,
+      "sharpe": 5.442483290961137,
+      "market_cap_category": "小盘股",
+      "market_value": 28.75014448
+    },
+    {
+      "code": "300706.SZ",
+      "name": "阿石创",
+      "volatility": 0.5571043585168618,
+      "sharpe": 5.093549443037434,
+      "market_cap_category": "小盘股",
+      "market_value": 69.0871229991
+    },
+    {
+      "code": "301200.SZ",
+      "name": "大族数控",
+      "volatility": 0.5348746055947944,
+      "sharpe": 5.0292359763603365,
+      "market_cap_category": "中盘股",
+      "market_value": 364.7038941792
+    },
+    {
+      "code": "301038.SZ",
+      "name": "深水规院",
+      "volatility": 0.8234677468171415,
+      "sharpe": 4.510175032725619,
+      "market_cap_category": "小盘股",
+      "market_value": 77.63184
+    },
+    {
+      "code": "300158.SZ",
+      "name": "振东制药",
+      "volatility": 0.5272167480904866,
+      "sharpe": 4.3980210472706025,
+      "market_cap_category": "小盘股",
+      "market_value": 83.13994382119999
+    },
+    {
+      "code": "300539.SZ",
+      "name": "横河精密",
+      "volatility": 0.569545442834816,
+      "sharpe": 4.359952930840924,
+      "market_cap_category": "小盘股",
+      "market_value": 84.3444682652
+    },
+    {
+      "code": "300289.SZ",
+      "name": "利德曼",
+      "volatility": 0.6478641492872143,
+      "sharpe": 3.9036900987847045,
+      "market_cap_category": "小盘股",
+      "market_value": 50.049056803999996
+    },
+    {
+      "code": "301357.SZ",
+      "name": "北方长龙",
+      "volatility": 0.6586475076365295,
+      "sharpe": 3.2340682992456635,
+      "market_cap_category": "中盘股",
+      "market_value": 154.76664
+    },
+    {
+      "code": "688189.SH",
+      "name": "南新制药",
+      "volatility": 0.5920884393766046,
+      "sharpe": 3.145978352254427,
+      "market_cap_category": "小盘股",
+      "market_value": 40.52888
+    },
+    {
+      "code": "836247.BJ",
+      "name": "华密新材",
+      "volatility": 0.613957581105608,
+      "sharpe": 2.9825695465879085,
+      "market_cap_category": "小盘股",
+      "market_value": 51.98957478
+    },
+    {
+      "code": "301161.SZ",
+      "name": "唯万密封",
+      "volatility": 0.6118091515958547,
+      "sharpe": 2.669348193023005,
+      "market_cap_category": "小盘股",
+      "market_value": 53.856
+    },
+    {
+      "code": "600117.SH",
+      "name": "西宁特钢",
+      "volatility": 0.5019802843159249,
+      "sharpe": 2.6430584681103557,
+      "market_cap_category": "中盘股",
+      "market_value": 115.88208890920001
+    },
+    {
+      "code": "300878.SZ",
+      "name": "维康药业",
+      "volatility": 0.5028975162475557,
+      "sharpe": 2.4226515999111786,
+      "market_cap_category": "小盘股",
+      "market_value": 32.939798255
+    },
+    {
+      "code": "300528.SZ",
+      "name": "幸福蓝海",
+      "volatility": 0.6368361487780697,
+      "sharpe": 2.33117445651598,
+      "market_cap_category": "小盘股",
+      "market_value": 66.883145693
+    },
+    {
+      "code": "830879.BJ",
+      "name": "基康技术",
+      "volatility": 0.7567342768818455,
+      "sharpe": 2.111536578235898,
+      "market_cap_category": "小盘股",
+      "market_value": 46.9676289103
+    },
+    {
+      "code": "300600.SZ",
+      "name": "国瑞科技",
+      "volatility": 0.541904395237538,
+      "sharpe": 1.935669973785743,
+      "market_cap_category": "小盘股",
+      "market_value": 60.08268081600001
+    },
+    {
+      "code": "835174.BJ",
+      "name": "五新隧装",
+      "volatility": 0.7218357947241404,
+      "sharpe": 1.7878308993075183,
+      "market_cap_category": "小盘股",
+      "market_value": 57.335553366000006
+    },
+    {
+      "code": "300950.SZ",
+      "name": "德固特",
+      "volatility": 0.5164719978363775,
+      "sharpe": 1.779252943122391,
+      "market_cap_category": "小盘股",
+      "market_value": 45.179824
+    },
+    {
+      "code": "300732.SZ",
+      "name": "设研院",
+      "volatility": 0.5320120656253615,
+      "sharpe": 1.768277098149297,
+      "market_cap_category": "小盘股",
+      "market_value": 34.79903898640001
+    },
+    {
+      "code": "688425.SH",
+      "name": "铁建重工",
+      "volatility": 0.5834154043341121,
+      "sharpe": 1.7531382354159173,
+      "market_cap_category": "中盘股",
+      "market_value": 325.343317
+    },
+    {
+      "code": "301076.SZ",
+      "name": "新瀚新材",
+      "volatility": 0.6844379546896942,
+      "sharpe": 1.7388377568886315,
+      "market_cap_category": "小盘股",
+      "market_value": 94.9604916
+    },
+    {
+      "code": "836807.BJ",
+      "name": "奔朗新材",
+      "volatility": 0.5585226961505975,
+      "sharpe": 1.6235668000887398,
+      "market_cap_category": "小盘股",
+      "market_value": 37.503656
+    },
+    {
+      "code": "688356.SH",
+      "name": "键凯科技",
+      "volatility": 0.5473870309899549,
+      "sharpe": 1.5475331801961658,
+      "market_cap_category": "小盘股",
+      "market_value": 57.70914105
+    },
+    {
+      "code": "873706.BJ",
+      "name": "铁拓机械",
+      "volatility": 0.7079071836604737,
+      "sharpe": 1.5455686724003073,
+      "market_cap_category": "小盘股",
+      "market_value": 24.76460566
+    },
+    {
+      "code": "603176.SH",
+      "name": "汇通集团",
+      "volatility": 0.5663151367109767,
+      "sharpe": 1.5205775650719453,
+      "market_cap_category": "小盘股",
+      "market_value": 31.5897923862
+    },
+    {
+      "code": "301217.SZ",
+      "name": "铜冠铜箔",
+      "volatility": 0.6042489727576693,
+      "sharpe": 1.491019075345366,
+      "market_cap_category": "中盘股",
+      "market_value": 253.43005180080002
+    },
+    {
+      "code": "300830.SZ",
+      "name": "金现代",
+      "volatility": 0.5555211765794084,
+      "sharpe": 1.4363432504837885,
+      "market_cap_category": "小盘股",
+      "market_value": 60.5620335232
+    },
+    {
+      "code": "301389.SZ",
+      "name": "隆扬电子",
+      "volatility": 0.5057805266395857,
+      "sharpe": 1.2824883926653845,
+      "market_cap_category": "中盘股",
+      "market_value": 140.13405
+    },
+    {
+      "code": "300965.SZ",
+      "name": "恒宇信通",
+      "volatility": 0.5418305064269024,
+      "sharpe": 1.2517742563863703,
+      "market_cap_category": "小盘股",
+      "market_value": 46.11
+    },
+    {
+      "code": "002940.SZ",
+      "name": "昂利康",
+      "volatility": 0.5379500562588813,
+      "sharpe": 1.2123923234484268,
+      "market_cap_category": "中盘股",
+      "market_value": 103.60759632959999
+    },
+    {
+      "code": "300631.SZ",
+      "name": "久吾高科",
+      "volatility": 0.5161732053579651,
+      "sharpe": 1.1173912818452634,
+      "market_cap_category": "小盘股",
+      "market_value": 43.114972595199994
+    },
+    {
+      "code": "430564.BJ",
+      "name": "天润科技",
+      "volatility": 0.5626883555797696,
+      "sharpe": 1.0125273992352024,
+      "market_cap_category": "小盘股",
+      "market_value": 23.2827761673
+    }
+  ]
+}
