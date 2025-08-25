@@ -1,8 +1,8 @@
 {
   "strategy_type": "short_term",
   "strategy_name": "短期波段策略标的池",
-  "generated_time": "2025-08-24 23:39:28",
-  "total_stocks": 39,
+  "generated_time": "2025-08-26 00:08:07",
+  "total_stocks": 32,
   "stocks": [
     {
       "code": "688585.SH",
@@ -59,14 +59,6 @@
       "sharpe": 5.674674220355831,
       "market_cap_category": "小盘股",
       "market_value": 66.85209492
-    },
-    {
-      "code": "836942.BJ",
-      "name": "恒立钻具",
-      "volatility": 0.9370321718149645,
-      "sharpe": 5.442483290961137,
-      "market_cap_category": "小盘股",
-      "market_value": 28.75014448
     },
     {
       "code": "300706.SZ",
@@ -133,14 +125,6 @@
       "market_value": 40.52888
     },
     {
-      "code": "836247.BJ",
-      "name": "华密新材",
-      "volatility": 0.613957581105608,
-      "sharpe": 2.9825695465879085,
-      "market_cap_category": "小盘股",
-      "market_value": 51.98957478
-    },
-    {
       "code": "301161.SZ",
       "name": "唯万密封",
       "volatility": 0.6118091515958547,
@@ -173,28 +157,12 @@
       "market_value": 66.883145693
     },
     {
-      "code": "830879.BJ",
-      "name": "基康技术",
-      "volatility": 0.7567342768818455,
-      "sharpe": 2.111536578235898,
-      "market_cap_category": "小盘股",
-      "market_value": 46.9676289103
-    },
-    {
       "code": "300600.SZ",
       "name": "国瑞科技",
       "volatility": 0.541904395237538,
       "sharpe": 1.935669973785743,
       "market_cap_category": "小盘股",
       "market_value": 60.08268081600001
-    },
-    {
-      "code": "835174.BJ",
-      "name": "五新隧装",
-      "volatility": 0.7218357947241404,
-      "sharpe": 1.7878308993075183,
-      "market_cap_category": "小盘股",
-      "market_value": 57.335553366000006
     },
     {
       "code": "300950.SZ",
@@ -229,28 +197,12 @@
       "market_value": 94.9604916
     },
     {
-      "code": "836807.BJ",
-      "name": "奔朗新材",
-      "volatility": 0.5585226961505975,
-      "sharpe": 1.6235668000887398,
-      "market_cap_category": "小盘股",
-      "market_value": 37.503656
-    },
-    {
       "code": "688356.SH",
       "name": "键凯科技",
       "volatility": 0.5473870309899549,
       "sharpe": 1.5475331801961658,
       "market_cap_category": "小盘股",
       "market_value": 57.70914105
-    },
-    {
-      "code": "873706.BJ",
-      "name": "铁拓机械",
-      "volatility": 0.7079071836604737,
-      "sharpe": 1.5455686724003073,
-      "market_cap_category": "小盘股",
-      "market_value": 24.76460566
     },
     {
       "code": "603176.SH",
@@ -307,14 +259,6 @@
       "sharpe": 1.1173912818452634,
       "market_cap_category": "小盘股",
       "market_value": 43.114972595199994
-    },
-    {
-      "code": "430564.BJ",
-      "name": "天润科技",
-      "volatility": 0.5626883555797696,
-      "sharpe": 1.0125273992352024,
-      "market_cap_category": "小盘股",
-      "market_value": 23.2827761673
     }
   ]
 }
